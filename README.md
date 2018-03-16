@@ -1,21 +1,21 @@
 # ctec_4323
 Term Project 
 
-Colors
+Colors:
   Names
   How Many
   Shades
   Tints
   Neutrals
   
-Type
+Type:
   Font Families
   Modular Scale
   Responsive Type
   Keywords
   Emphasis
   
-Lists
+Lists:
   List Spacing(Margin)
   Backgrounds
   Borders
