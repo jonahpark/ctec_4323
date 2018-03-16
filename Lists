@@ -1,0 +1,25 @@
+@mixin round-corner($ corners: 1em 0 1em 0)
+{
+  $top-left: nt
+  h($corners,1);
+  $top-right: nth($corners,2);
+  $bottom-right: nth($corners,3);
+  $bottom-left: nth($corners,4);
+
+  border-top-left-radius: $top-left;
+  border-top-right-radius: $top-right;
+  border-bottom-right-radius: $bottom-right;
+  border-bottom-left-radius: $bottom-left;
+}
+
+button {
+@include round-corner;
+padding: 1em;
+}
+
+nav {
+@include round-corner;
+width:300px;
+padding:1em;
+background:#dadada;
+}
