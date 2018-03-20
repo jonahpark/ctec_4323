@@ -1,25 +1,39 @@
-@mixin round-corner($ corners: 1em 0 1em 0)
-{
-  $top-left: nt
-  h($corners,1);
-  $top-right: nth($corners,2);
-  $bottom-right: nth($corners,3);
-  $bottom-left: nth($corners,4);
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Cross Browser List Margins</title>
+<style type="text/css">
+body { font-size:100&#37;; margin:0; padding:0; background:#FF0; border:20px solid red; }
+ol,ul { width:20em; margin:1em 0; padding:1px 0; background:#0F0; }
+li { margin:1em; padding:.25em; background:#FFF; }
+</style>
+</head>
+<body>
+<ul>
+<li>List item with a long string of text</li>
+<li>List item with a longer string of text: List item with a longer string of text</li>
+<li>List item with a long string of a text long string of text</li>
+<li>List item with a longer string of text: List item with a longer string of text</li>
+</ul>
+<ol> <li>List item with a long string of text</li>
+<li>List item with a longer string of text: List item with a longer string of text</li>
+<li>List item with a long string of a text long string of text</li>
+<li>List item with a longer string of text: List item with a longer string of text</li> </ol>
+ </body>
 
-  border-top-left-radius: $top-left;
-  border-top-right-radius: $top-right;
-  border-bottom-right-radius: $bottom-right;
-  border-bottom-left-radius: $bottom-left;
-}
-
-button {
-@include round-corner;
-padding: 1em;
-}
-
-nav {
-@include round-corner;
-width:300px;
-padding:1em;
-background:#dadada;
-}
+ <div>
+    <ul>
+        <span>•</span><li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae et
+        </li>
+        <span>•</span><li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae et
+        </li>
+        <span>•</span><li>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae et
+        </li>
+    </ul>
+</div>
+</body></html>
+ </html>
