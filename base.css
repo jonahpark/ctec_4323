@@ -1,0 +1,276 @@
+/*
+  Author: Sandra Barcenas, Lea Isabel Cutillar, Conor Lipscomb, Sang Park, Sarina Proctor, Josh Roper
+  Date: 04.02.2018
+  Purpose: Used for usability testing.
+  Version: 1.0
+
+*/
+
+/* Import Font Families */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
+/* End of Import Families */
+
+body {
+	width: 100%;
+	font-size: 12px;
+  	height: auto;
+  	margin: 0;
+ 	padding: 0;
+	font-family: 'Roboto Condensed', 'Lato', 'Times New Roman', sans-serif;
+}
+
+/*==========Beginning of Header =========*/
+
+.logo {
+  text-indent: -9999px;
+  background: url("Asset1.png") no-repeat 0 0 /contain transparent;
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: 0;
+}
+
+.header {
+  background-color: #3f5c63;
+  display: flex;
+  display: -webkit-flex;
+
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+
+  align-items: center;
+  -webkit-align-items: center;
+
+  padding: 2em;
+  /*width: 100%;*/
+}
+
+/*========== Ending of Header =========*/
+
+/*========== Beginning of Navigation =========*/
+
+.nav {
+  display: flex;
+  display: -webkit-flex;
+
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  display: -webkit-flex;
+
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  display: -webkit-inline-block;
+	
+}
+
+.nav a {
+  display: block;
+  display: -webkit-block;
+  color: #f5f6fa;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  margin-right: 8em;
+  padding: 1em 1.5em;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: #3269B0;
+}
+
+li a:hover {
+    color: #E47526;
+}
+
+li a:active {
+    border-bottom: 2px solid #f35b22;
+    padding-bottom: 0.5em;
+}
+
+a.signup:hover {
+	background-color: #f35b22;
+	color: #f5f6fa;
+}
+
+a.signup {
+	border: 2px solid #f35b22;
+	border-radius: 0.3px;
+	padding: 1em 1.5em;
+	margin: 0;
+
+}
+
+
+/*========== Ending of Navigation =========*/
+
+/*========== Beginning of Banner ==========*/
+
+
+.banner {
+	background: url("images/placeholder.png") no-repeat 0 0 /contain transparent;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-text {
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-text-items {
+	color: #3f5c63;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	line-height: 1.65;
+}
+
+/*========== Ending of Banner =========*/
+
+
+/*========== Beginning of Explore page =========*/
+
+
+.explore-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 150px;
+	text-align: left;
+	color: #3f5c63;
+	border: 1px solid #3f5c63;
+	background-color: #ffffff;
+	padding-top: 3em;
+}
+
+.explore-links1 {
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em;
+	text-decoration: none;
+}
+
+.explore-links1 a {
+	text-decoration: none;
+}
+
+.explore-links2 {
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+
+.explore-links2 a {
+	text-decoration: none;
+}
+
+
+.explore-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	background-color: #F5F6FA;
+}
+
+.explore-box {
+	width: 370px;
+	height: 240px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.explore-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center
+
+}
+
+.explore-info img {
+	width: 380px;
+	height: 240px;
+}
+
+.explore-description  {
+	text-align: left;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	padding-left: 1em;
+	
+}
+
+/*========== Ending of Explore page =========*/
+
+
+/*========== Beginning of Sidebar =========*/
+
+.signup-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 24px;
+	padding-top: 3em;
+}
+
+.sidebar {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	
+	margin-top: 8em;
+	margin-left: 8em;
+	
+}
+
+.sidebar td {
+	font-size: 18px;
+	color: #3f5c63;
+	padding-right: 1em;
+	padding-bottom: 2em;
+	
+}
+
+.lines {
+	width: 2px;
+	height: 40px;
+	background: #3f5c63;
+}
+
+.lines-orange {
+	width: 2px;
+	height: 40px;
+	background: #f35b22;
+}
+/*========== Ending of Sidebar =========*/
