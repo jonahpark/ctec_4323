@@ -1,0 +1,402 @@
+/*
+  Author: Sandra Barcenas, Lea Isabel Cutillar, Conor Lipscomb, Sang Park, Sarina Proctor, Josh Roper
+  Date: 04.02.2018
+  Purpose: Used for usability testing.
+  Version: 1.0
+
+*/
+
+/* Import Font Families */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
+/* End of Import Families */
+
+body {
+	width: 100%;
+	font-size: 12px;
+  	height: auto;
+  	margin: 0;
+ 	padding: 0;
+	font-family: 'Roboto Condensed', 'Lato', 'Times New Roman', sans-serif;
+}
+
+/* ==== Header ==== */
+
+.logo {
+  text-indent: -9999px;
+  background: url("Asset1.png") no-repeat 0 0 /contain transparent;
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: 0;
+}
+
+.header {
+  background-color: #3f5c63;
+  display: flex;
+  display: -webkit-flex;
+
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+
+  align-items: center;
+  -webkit-align-items: center;
+
+  padding: 2em;
+  /*width: 100%;*/
+}
+
+.container-signup .signup-header{
+   font-family: 'Chivo', sans-serif;
+    font-size: 3em;
+    color: #3f5c63;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* ==== End of Header ==== */
+
+/* ==== Navigation ==== */
+
+.nav {
+  display: flex;
+  display: -webkit-flex;
+
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  display: -webkit-flex;
+
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  display: -webkit-inline-block;
+
+  /*padding: 0 75px 0 45px;*/
+	
+}
+
+.nav a {
+  display: block;
+  display: -webkit-block;
+  color: #f5f6fa;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  margin-right: 8em;
+  padding: 1em 1.5em;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: #3269B0;
+}
+
+li a:hover {
+    color: #E47526;
+}
+
+li a:active {
+    border-bottom: 2px solid #f35b22;
+    padding-bottom: 0.5em;
+}
+
+a.signup:hover {
+	background-color: #f35b22;
+	color: #f5f6fa;
+}
+
+a.signup {
+	border: 2px solid #f35b22;
+	border-radius: 0.3px;
+	padding: 1em 1.5em;
+	margin: 0;
+
+}
+
+
+/*========== Beginning of Sidebar =========*/
+
+.container-signup .signup-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.container-signup .sidebar {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	
+	margin-top: 0em;
+	margin-left: 8em;
+	
+}
+
+.container-signup .sidebar a{
+    text-decoration: none;
+    color: #3f5c63;
+}
+
+.container-signup .sidebar td {
+	font-size: 18px;
+	color: #3f5c63;
+	padding-right: 1em;
+	padding-bottom: 2em;
+	
+}
+
+.container-signup .lines {
+	width: 2px;
+	height: 40px;
+	background: #3f5c63;
+}
+
+.container-signup .lines-orange {
+	width: 2px;
+	height: 40px;
+	background: #f35b22;
+}
+/*========== Ending of Sidebar =========*/
+
+
+
+/*========== Beginning of Signup-page =========*/
+
+.container-signup .logo {
+  text-indent: -9999px;
+  background: url("Asset1.png") no-repeat 0 0 /contain transparent;
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: 0;
+}
+
+.container-signup .parent{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.container-signup .parent .right{
+   	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	
+	margin-top: 0em;
+	margin-right: 0em;
+	
+}
+
+/* ==== start of form ==== */
+
+.container-signup .container-reservation fieldset button {
+  width:100%;
+margin-top: 2em;
+    padding: 1.3em;
+    font-size: 20px;  
+    background-color: #3f5c63;
+    color: white;
+}
+
+.container-signup fieldset{
+    border: none;
+}
+
+.container-signup .container-reservation{
+    width: 60em;
+    margin:auto;
+    border: none;
+    margin-right: 0em;
+    margin-left: 10em;
+    margin-top: 0em
+  }
+#basic-info{
+    width: 100%;
+}
+#contact-form{
+    width: 100%;
+}
+
+.container-signup .form-labels{
+    justify-content: center;
+    font-size: 1.8em;
+ margin-left: .2em;
+    font-weight: 100;
+    color: #3f5c63;
+    
+}
+
+.container-signup ::placeholder{
+    color: lightgrey;
+}
+.container-signup .container-reservation label {
+  text-align: center;
+    font-size: 18px;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="phone"],
+select
+{
+   margin-top: 1em; 
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:1px solid #888;
+    width: 100%;
+    padding: .2em;
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#location-shiz{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #3f5c63;
+}
+/* ==== start of form ==== */
+
+
+
+
+
+
+
+/* ==== start of my meetups ==== */
+/*
+.container-signup .right .container-mymeetups{
+    background-color: aqua;
+    width: 70em;
+    height: 70em;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-signup .container-mymeetups mmu-col-1{
+flex: 1;
+    width: 60em;
+    height: 60em;
+}
+
+.container-signup .container-mymeetups mmu-col-2{
+    
+}
+.container-signup .container-mymeetups mmu-col-1 .mmu-images{
+    width: 250px;
+    height: 500px;
+    background-color: black;
+}
+.container-signup .container-mymeetups mmu-col-2 p{
+    font-size: 50px;
+}*/
+
+.container-meetup{
+margin-top: em
+    
+}
+.col-container{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-1{
+  Width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col-2{
+  Width:100%;
+ 
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.col-2 p {
+  margin-top: 0px;
+  max-width: 700px;
+  font-size: 18px;
+color: #3f5c63;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: .5em;
+}
+.col-2 h3{
+  margin-bottom: .5em;
+  font-size: 20px;
+    color: #3f5c63;
+}
+.col-images{
+  background-color: black;
+  width: 250px;
+  height: 150px; 
+}
+.col-2 button{
+    width: 125px;
+    height: 30px;
+    background-color: #3f5c63;
+    color: white;
+    margin-right: 1.2em;
+    margin-bottom: 2em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.submit{
+   position: relative;
+    left: 10.3em;
+    top: .5em;
+    width: 250px;
+    height: 40px;
+    background-color: #3f5c63;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#contact-form p{
+    text-align: center;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #3f5c63;
+}
+
+#contact-form p a{
+    text-decoration: none;
+    color: #f35b22;
+}
+
+.container-meetup .col-headline{
+    color: #3f5c63;
+    margin-left:4.8em;
+    font-size: 24px;
+    margin-bottom: .2em;
+}
+/* ==== end of my meetups ==== */
+
