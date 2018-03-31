@@ -190,52 +190,6 @@
 
 /* ==== End of Sign Up Pages Layout ==== */
 
-
-/* ==== Sign Up - Follow Interests Main Content ==== */
-
-.s-interests-right-grid {
-  display: flex;
-	display:-webkit-flex;
-
-	justify-content: center;
-	-webkit-justify-content: center;
-
-  width: 900px;
-
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-}
-
-.s-interests-right-container {
-  width: 250px;
-	height: 240px;
-	line-height: 1.65;
-	align-items: center;
-
-  padding-right: 4em;
-  padding-bottom: 4em;
-
-}
-
-.s-interests-image {
-  background-image: url("../Images/placeholder.png");
-  background-size: cover;
-  width: 250px;
-  height: 150px;
-}
-
-.s-interests-description {
-  text-align: left;
-	line-height: 1.65;
-	color: #3f5c63;
-	border: 1px solid #ffffff;
-	background-color: #f5f6fa;
-	padding-left: 1em;
-}
-
-
-/* ==== End of Sign Up - Follow Interest Main Content ==== */
-
 /* ==== Sign Up - Enter Personal Data Main Content ==== */
 
 textarea {
