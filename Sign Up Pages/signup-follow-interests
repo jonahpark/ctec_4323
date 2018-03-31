@@ -24,11 +24,11 @@
 							</ul>
 					</div>
 
-					<div class="signup-interests-header">
-	          <div class="signup-interests-header-container">
-	            <div class="signup-interests-title">
+						<div class="signup-header">
+	          <div class="signup-header-container">
+	            <div class="signup-header-title">
 	              <h1>Follow your interests</h1>
-	            <div class="signup-interests-description">
+	            <div class="signup-header-description">
 	              <p>NH has over 500 interests to choose from, it's great</p>
 	            </div>
 	            </div>
@@ -167,13 +167,14 @@
 
 /* ==== Sign Up - Follow Interests Header Section ==== */
 
-.signup-interests-header {
+
+.signup-header {
   width: 100%;
   height: auto;
   padding: 2em;
 }
 
-.signup-interests-header-container {
+.signup-header-container {
   display: flex;
   display: -webkit-flex;
 
@@ -184,18 +185,16 @@
   -webkit-align-items: center;
 }
 
-.signup-interests-title h1 {
+.signup-header-title h1 {
   text-align: center;
 }
 
-.signup-interests-description p {
+.signup-header-description p {
   color: #1C4070;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
 }
-
-
 
 /* ==== Sign Up - Follow Interests Header Section ==== */
 
