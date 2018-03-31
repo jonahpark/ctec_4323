@@ -35,8 +35,8 @@
 	          </div>
 	        </div>
 
-					<div class="signup-interests-container">
-						<div class="s-interests-left">
+					<div class="signup-layout-container">
+						<div class="s-layout-left">
 							<table class="sidebar">
 								<tr>
 									<td><div class="lines"></div></td>
@@ -66,7 +66,7 @@
 						</div>
 
 
-			<div class="s-interests-right">
+			<div class="s-layout-right">
 				<div class="s-interests-right-grid">
 							<div class="s-interests-right-container">
 								<div class="s-interests-image">
@@ -122,6 +122,7 @@
 
 			</div>
 
+
 		</body>
 </html>
 
@@ -167,7 +168,6 @@
 
 /* ==== Sign Up - Follow Interests Header Section ==== */
 
-
 .signup-header {
   width: 100%;
   height: auto;
@@ -196,12 +196,13 @@
   font-weight: 400;
 }
 
-/* ==== Sign Up - Follow Interests Header Section ==== */
 
 
-/* ==== Sign Up - Follow Interests Main Content ==== */
+/* ==== End of Sign Up - Follow Interests Header Section ==== */
 
-.signup-interests-container {
+/* ==== Sign Up Pages Layout ==== */
+
+.signup-layout-container {
   display: flex;
   display: -webkit-flex;
 
@@ -212,8 +213,31 @@
   -webkit-align-items: flex-start;
 
   margin: 2em 0 2em 0;
-
 }
+
+.s-layout-left {
+  display: flex;
+	display: -webkit-flex;
+
+  flex-basis: 30%;
+  -webkit-flex-basis: 30%;
+}
+
+.s-layout-right {
+  display: flex;
+  display: -webkit-flex;
+
+  flex-basis: 70%;
+  -webkit-flex-basis: 70%;
+
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+
+/* ==== End of Sign Up Pages Layout ==== */
+
+
+/* ==== Sign Up - Follow Interests Main Content ==== */
 
 .s-interests-right-grid {
   display: flex;
@@ -226,25 +250,6 @@
 
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-}
-
-.s-interests-left {
-  display: flex;
-	display: -webkit-flex;
-
-  flex-basis: 30%;
-  -webkit-flex-basis: 30%;
-}
-
-.s-interests-right {
-  display: flex;
-  display: -webkit-flex;
-
-  flex-basis: 70%;
-  -webkit-flex-basis: 70%;
-
-  justify-content: flex-start;
-  -webkit-justify-content: flex-start;
 }
 
 .s-interests-right-container {
