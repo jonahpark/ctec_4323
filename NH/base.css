@@ -159,6 +159,29 @@ a.signup {
 	margin: 0;
 
 }
+/*========== Beginning of Index Banner ==========*/
+
+.banner {
+	background: url("images/adult-casual-clothes-296881.jpg") no-repeat 0 0 /contain transparent;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-text {
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-text-items {
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	line-height: 1.65;
+}
+
+/*========== Ending of Index Banner =========*/
+
 
 
 /*========== Beginning of Index page =========*/
