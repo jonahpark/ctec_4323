@@ -3,13 +3,9 @@
   Date: 04.02.2018
   Purpose: Used for usability testing.
   Version: 1.0
-
 */
 
-/* Import Font Families */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i');
-/* End of Import Families */
+
 
 body {
 	width: 100%;
@@ -17,8 +13,13 @@ body {
   	height: auto;
   	margin: 0;
  	padding: 0;
-	font-family: 'Roboto Condensed', 'Lato', 'Times New Roman', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 }
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Chivo', sans-serif;
+}
+
 
 /* ==== Header ==== */
 
@@ -160,6 +161,190 @@ a.signup {
 }
 
 
+/*========== Beginning of Index page =========*/
+
+.first-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	background-color: #F5F6FA;
+	padding-bottom: 5em;
+}
+
+.first-box {
+	width: 840px;
+	height: 460px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.first-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+}
+
+.first-info img {
+	width: 840px;
+	height: 460px;
+	border: 1px solid #000000;
+}
+
+
+.index-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	background-color: #ffffff;
+}
+
+.index-box {
+	width: 330px;
+	height: 340px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.index-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center
+
+}
+
+.index-info img {
+	width: 330px;
+	height: 340px;
+}
+
+.index-description  {
+	text-align: left;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	padding-left: 1em;
+	
+}
+
+
+.city-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	background-color: #F5F6FA;
+}
+
+.city-box {
+	width: 340px;
+	height: 220px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.city-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center
+
+}
+
+.city-info img {
+	width: 340px;
+	height: 220px;
+	border: 1px solid #000000;
+}
+
+.city-description  {
+	text-align: center;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #F5F6FAf;
+	background-color: #F5F6FA;
+	padding-left: 1em;
+	
+}
+
+.container.fullwidth {
+    width: 100%;
+}
+
+.calltoaction {
+  display: block;
+  display: -webkit-block;
+
+  position: relative;
+  width: 80%;
+  padding: 45px 45px 45px 45px;
+  background-color: #ffffff;
+}
+
+.calltoaction .cta-container {
+  display: table;
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.calltoaction .cta-text {
+  width: 100%;
+}
+
+
+.calltoaction .cta-primary-btn {
+  width: 20%;
+  position: relative;
+  vertical-align: middle;
+  display: table-cell;
+  margin-right: 0;
+}
+
+.cta-primary-btn {
+  background-color: #E4752B;
+  border: 2px solid transparent;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 25%;
+}
+
+.cta-primary-btn:hover {
+  background-color: #fff;
+  border: 2px solid #E4752B;
+  padding: 0.5em;
+  color: #E4752B;
+}
+
+
+/*========== Ending of Index Page =========*/
+
 /*========== Beginning of Sidebar =========*/
 
 .container-signup .signup-header {
@@ -243,6 +428,91 @@ a.signup {
 	margin-right: 0em;
 	
 }
+
+/*========== Beginning of Explore page =========*/
+
+
+.explore-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 150px;
+	text-align: left;
+	color: #3f5c63;
+	border: 1px solid #3f5c63;
+	background-color: #ffffff;
+	padding-top: 3em;
+}
+
+.explore-links1 {
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em 14em 0 0;
+	text-decoration: none;
+}
+
+.explore-links1 a {
+	text-decoration: none;
+}
+
+.explore-links2 {
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em 0 0 14em;
+}
+
+
+.explore-links2 a {
+	text-decoration: none;
+}
+
+
+.explore-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	
+	background-color: #F5F6FA;
+}
+
+.explore-box {
+	width: 370px;
+	height: 240px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.explore-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center
+
+}
+
+.explore-info img {
+	width: 380px;
+	height: 240px;
+}
+
+.explore-description  {
+	text-align: left;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	padding-left: 1em;
+	
+}
+
+/*========== Ending of Explore page =========*/
 
 /* ==== start of form ==== */
 
@@ -770,3 +1040,103 @@ margin-top: 1.2em;
     color: #3f5c63;
 }
 /* ==== end of login screen ==== */
+
+/*========== Beginning of Footer=========*/
+
+footer {
+	box-sizing: border-box;
+	background-color: #66939e;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.wrapper {
+	width: 100%;
+
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+
+}
+
+
+.wrapper-links li {
+	list-style-type: none;
+	color: #ffffff;
+	line-height: 1.65;
+	font-size: 16px;
+
+}
+
+.wrapper-links p {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.wrapper-links2 {
+	margin-right: 2em;
+}
+
+.wrapper-links2 li {
+	list-style-type: none;
+	color: #ffffff;
+	line-height: 1.65;
+	font-size: 16px;
+}
+
+.wrapper-links2 li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.wrapper-links2 li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.wrapper-links2 p {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+
+.wrapper-links2 a:hover {
+	color: #1d4070;
+}
+
+
+.footer-logo img {
+	width: 85px;
+  	height: 85px;
+	margin-top: 4em;
+}
+
+.social {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 0.50em;
+}
+
+
+.social p {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+}
+/*========== Ending of Footer =========*/
