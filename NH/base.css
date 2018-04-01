@@ -324,9 +324,10 @@ a.signup {
 }
 
 .cta-primary-btn {
-  background-color: #E4752B;
+  background-color: #ffffff;
   border: 2px solid transparent;
   color: #fff;
+  border: 1px solid #E4752B;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
