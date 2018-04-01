@@ -17,8 +17,14 @@ body {
   	height: auto;
   	margin: 0;
  	padding: 0;
-	font-family: 'Roboto Condensed', 'Lato', 'Times New Roman', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
 }
+
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Chivo', sans-serif;
+}
+
 
 /* ==== Header ==== */
 
