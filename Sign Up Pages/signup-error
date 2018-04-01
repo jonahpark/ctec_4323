@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta charset="keywords" content="Neighboring Health">
+<meta charset="author" content="Sandra Barcenas, Lea Isabel Cutillar, Conor Lipscomb, Sang Park, Sarina Proctor, Josh Roper">
+<meta charset="viewport" content="width=device-width" intial-scale="1.0">
+
+<link rel="stylesheet" href="CSS/styles.css">
+
+<title>Sign Up - Error</title>
+</head>
+
+	<body>
+
+					<div class="header">
+						<a href="index.html" class="logo">Neighboring Health</a>
+							<ul class="nav">
+								<li><a href="index.html" class="active">Introduction</a></li>
+								<li><a href="howitworks.html">How it works</a></li>
+								<li><a href="locations.html">Locations</a></li>
+								<li><a href="login.html">Log In</a></li>
+								<li><a href="signup.html" class="signup">Sign up</a></li>
+							</ul>
+					</div>
+
+					<div class="signup-header">
+						<div class="signup-header-container">
+							<div class="signup-header-title">
+								<h1>Form not submitted</h1>
+							<div class="signup-header-description">
+								<p>Please fill all the required fields in order to continue.</p>
+							</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="signup-layout-container">
+						<div class="s-layout-left">
+							<table class="sidebar">
+								<tr>
+									<td><div class="lines"></div></td>
+									<td>Create account</td>
+								</tr>
+								<tr>
+									<td><div class="lines"></div></td>
+									<td>Follow Interests</td>
+								</tr>
+								<tr>
+									<td><div class="lines"></div></td>
+									<td>Enter personal data</td>
+								</tr>
+								<tr>
+									<td><div class="lines"></div></td>
+									<td>Search for meetups</td>
+								</tr>
+								<tr>
+									<td><div class="lines"></div></td>
+									<td>My Meetups</td>
+								</tr>
+								<tr>
+									<td><div class="lines-orange"></div></td>
+									<td>Not Submitted</td>
+								</tr>
+							</table>
+						</div>
+
+
+			<div class="s-layout-right">
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Proin aliquet neque nunc, et maximus ligula pretium ut. </p>
+
+			</div>
+
+			</div>
+
+</body>
+</html>
+
+
+///////////////////////////// CSS /////////////////////////////
+
+/* ==== Sidebar ==== */
+
+.sidebar {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+	margin-left: 6em;
+
+}
+
+.sidebar td {
+	font-size: 18px;
+	color: #3f5c63;
+	padding-right: 1em;
+	padding-bottom: 2em;
+
+}
+
+.lines {
+	width: 2px;
+	height: 40px;
+	background: #3f5c63;
+}
+
+.lines-orange {
+	width: 2px;
+	height: 40px;
+	background: #f35b22;
+}
+
+/*========== Ending of Sidebar =========*/
+
+/* ==== Sign Up - Follow Interests Header Section ==== */
+
+.signup-header {
+  width: 100%;
+  height: auto;
+  padding: 2em;
+}
+
+.signup-header-container {
+  display: flex;
+  display: -webkit-flex;
+
+  justify-content: center;
+  -webkit-justify-content: center;
+
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.signup-header-title h1 {
+  text-align: center;
+}
+
+.signup-header-description p {
+  color: #1C4070;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+/* ==== End of Sign Up - Follow Interests Header Section ==== */
+
+/* ==== Sign Up Pages Layout ==== */
+
+.signup-layout-container {
+  display: flex;
+  display: -webkit-flex;
+
+  justify-content: center;
+  -webkit-justify-content: center;
+
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+
+  margin: 2em 0 2em 0;
+}
+
+.s-layout-left {
+  display: flex;
+	display: -webkit-flex;
+
+  flex-basis: 30%;
+  -webkit-flex-basis: 30%;
+}
+
+.s-layout-right {
+  display: flex;
+  display: -webkit-flex;
+
+  flex-basis: 70%;
+  -webkit-flex-basis: 70%;
+
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+
+/* ==== End of Sign Up Pages Layout ==== */
+
+
+/* ==== Sign Up - Follow Interests Main Content ==== */
+
+.s-interests-right-grid {
+  display: flex;
+	display:-webkit-flex;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+  width: 900px;
+
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.s-interests-right-container {
+  width: 250px;
+	height: 240px;
+	line-height: 1.65;
+	align-items: center;
+
+  padding-right: 4em;
+  padding-bottom: 4em;
+
+}
+
+.s-interests-image {
+  background-image: url("../Images/placeholder.png");
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+
+.s-interests-description {
+  text-align: left;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #ffffff;
+	background-color: #f5f6fa;
+	padding-left: 1em;
+}
+
+
+/* ==== End of Sign Up - Follow Interest Main Content ==== */
+
+/* ==== Sign Up - Enter Personal Data Main Content ==== */
+
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+/* ==== End of Sign Up - Enter Personal Data Main Content ==== */
+
+/* ==== Sign Up - Error Page ==== */
+
+
+
+/* ==== End of Sign Up - Error Page ==== */
+
+///////////////////////////// CSS /////////////////////////////
