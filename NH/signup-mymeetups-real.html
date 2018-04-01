@@ -6,7 +6,7 @@
 <meta charset="author" content="Sandra Barcenas, Lea Isabel Cutillar, Conor Lipscomb, Sang Park, Sarina Proctor, Josh Roper">
 <meta charset="viewport" content="width=device-width" intial-scale="1.0">
 <script type="text/javascript">
-<!--/*
+<!--
     function toggle_visibility(id) {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
@@ -14,7 +14,6 @@
        else
           e.style.display = 'block';
     }
-    */
 //-->
 </script>
 <link rel="stylesheet" href="base.css">
@@ -26,18 +25,13 @@
 		<div class="container-signup">
 					<div class="header">
 						<a href="home.html" class="logo">Neighboring Health</a>
-							<!--<ul class="nav">
+							<ul class="nav">
 								<li><a href="index.html" class="active">Introduction</a></li>
 								<li><a href="howitworks.html">How it works</a></li>
 								<li><a href="locations.html">Locations</a></li>
 								<li><a href="login.html">Log In</a></li>
 								<li><a href="signup.html" class="signup">Sign up</a></li>
-							</ul>-->
-							<div class="sub-nav-doe"><ul class="sub-nav">
-								<li><a href="index.html" class="active">Explore</a></li>
-								<li><a href="myaccount.html">Profile</a></li>
-								<li><a href="">Log-out</a></li>
-							</ul></div>
+							</ul>
 							
 <!--<div class="dropdown-navigation">
     <ul>
@@ -55,30 +49,22 @@
 	
 							
 					</div>
-					
 
 
-		<!--<div class="signup-header">
-			<h3>Create Your Account</h3>
-		</div>-->
+		<div class="signup-header">
+			<h3>My Meetups</h3>
+		</div>
 		
 		
 		
 		<div class="parent">  
   <div class="left">
-<div class="side-info">
-    <div class="profile-image"></div>
-    <h3>Josh is da illest</h3>
-    <a href="myinterest.html"> <button>MY INTEREST</button></a>
-    <a href="imgoing.html"><button>I'M GOING</button></a>
-    <a href="myaccount.html"><button>MY ACCOUNT</button></a>
-</div>
+
  
-		
-<!--<table class="sidebar">
+		<table class="sidebar">
 			<tr>
-				<td><div class="lines-orange"></div></td>
-                <td><a href="#" onclick="toggle_visibility('foo');"<a href="signup-create_account.html">Create account</a></a></td>
+				<td><div class="lines"></div></td>
+                <td><!--<a href="#" onclick="toggle_visibility('foo');">--><a href="signup-create_account.html">Create account</a><!--</a>--></td>
 			</tr>
 			<tr>
 				<td><div class="lines"></div></td>
@@ -93,66 +79,103 @@
 				<td><a href="signup-findmeetup.html">Search for meetups</a></td>
 			</tr>
 			<tr>
-				<td><div class="lines"></div></td>
+				<td><div class="lines-orange"></div></td>
                 <td><a href="signup-mymeetups-real.html">My Meetups</a></td>
 			</tr>
 			<tr>
 				<td><div class="lines"></div></td>
 				<td>Not Submitted</td>
 			</tr>	
-		</table>-->
+		</table>
 		</div>
-            <div class="left">
-            <div class="container-imgoing">
-            <div class="im-going-head">
-            <h4 class="head-doe">I'M GOING</h4>
-                 <p class="orange-underline">Here, you'll find meetups you're going to.</p>
+      <!--<div id="foo">-->
+		  <div class="right">
+          
+		     <div class="container-meetup">
+		     <h2 class="col-headline">Going</h2>
+		     <div class="col-container">
+		   
+  <div class="col-1">
+   
+    <div class="col-images"></div>
+  </div>
+  <div class="col-2">
+    <div class="image-text">
+    <h3>HEADLINE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa incidunt dolore nobis recusandae ex, aperiam omnis asperiores tenetur odio iste debitis quam natus.</p>
+  </div>
+<button>LEARN MORE</button>
+  </div>
                  </div>
-                 
-             <div class="col-container-2">
-   <div class="col-1-2">
-    <div class="col-image-big"></div>
+  <div class="col-container">
+   <div class="col-1">
+    <div class="col-images"></div>
   </div>
   <div class="col-2">
     <div class="image-text">
     <h3>HEADLINE</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa incidunt dolore nobis recusandae ex, aperiam omnis asperiores tenetur odio iste debitis quam natus.</p>
   </div>
-    <button>MORE INFO</button>
+    <button>LEARN MORE</button>
   </div>
 </div>
-          
-                <div class="col-container-2">
-   <div class="col-1-2">
-    <div class="col-image-big"></div>
+              <h2 class="col-headline">Interested</h2> 
+                <div class="col-container">
+   <div class="col-1">
+    <div class="col-images"></div>
   </div>
   <div class="col-2">
     <div class="image-text">
     <h3>HEADLINE</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa incidunt dolore nobis recusandae ex, aperiam omnis asperiores tenetur odio iste debitis quam natus.</p>
   </div>
-    <button>MORE INFO</button>
+ <button>LEARN MORE</button>
   </div>
 </div>
-          
-          <div class="container.fullwidth">
-						<div class="calltoaction-2">
-						<div class="cta-container-2">
-							<div class="cta-text-2">
-							<h3>Want to look for more meetups?</h3>
-							<p>Neighboring Health has over... blah</p>
-							</div>
-							<div class="box-doe">
-								<a href="#" class="cta-primary-btn-2">FIND MORE INTERESTS</a>
-								</div>
-						</div>
-					</div>
-				</div>
-           </div>
-            </div>
+                <div class="col-container">
+   <div class="col-1">
+    <div class="col-images"></div>
+  
+
+     
+  </div>
+
+  <div class="col-2">
+    <div class="image-text">
+   
+    <h3>HEADLINE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa incidunt dolore nobis recusandae ex, aperiam omnis asperiores tenetur odio iste debitis quam natus.</p>
+  </div>
+  <button>LEARN MORE</button>
+  </div>
+</div>
+
+                            <div class="col-container">
+   <div class="col-1">
+    <div class="col-images"></div>
+  </div>
+  <div class="col-2">
+    <div class="image-text">
+    <h3>HEADLINE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti culpa incidunt dolore nobis recusandae ex, aperiam omnis asperiores tenetur odio iste debitis quam natus.</p>
+  </div>
+ <button>LEARN MORE</button>
+  </div>
+</div>
+             
+      
+              <button class="submit">BACK TO MY PROFILE</button>
+               
+                        
+               </div>
+                </div>
+              <!--</div>-->
+            
+            
+            
 </div> 
 		
-
+	
 		
 		</div>
 	</body>
