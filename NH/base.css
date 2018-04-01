@@ -301,14 +301,12 @@ a.signup {
   display: -webkit-block;
 
   position: relative;
-  width: 80%;
   padding: 45px 45px 45px 45px;
   background-color: #ffffff;
 }
 
 .calltoaction .cta-container {
   display: table;
-  padding: 25px 25px;
   width: 100%;
 }
 
