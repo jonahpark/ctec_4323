@@ -335,10 +335,10 @@ a.signup {
 }
 
 .cta-primary-btn:hover {
-  background-color: #fff;
-  border: 2px solid #E4752B;
+  background-color: #E4752B;
+  border: 1px solid #E4752B;
   padding: 0.5em;
-  color: #E4752B;
+  color: #ffffff;
 }
 
 
