@@ -449,7 +449,7 @@ a.signup {
 /*========== Beginning of Explore page =========*/
 
 .banner-explore {
-	background: url("images/adult-arms-blur-893891.jpg") no-repeat 0 0 /contain transparent;
+	background: url("images/placeholder.png") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
 }
@@ -482,7 +482,7 @@ a.signup {
 .explore-links1 {
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 2em 12em 0 0;
+	padding: 2em 14em 0 2em;
 	text-decoration: none;
 }
 
@@ -554,7 +554,7 @@ a.signup {
 
 /*========== Banner for Community Resources page =========*/
 .banner-cr {
-	background: url("images/backlit-bonding-casual-708392.jpg") no-repeat 0 0 /contain transparent;
+	background: url("images/placeholder.png") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
 }
