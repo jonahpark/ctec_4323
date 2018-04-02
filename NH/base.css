@@ -483,7 +483,7 @@ a.signup {
 .explore-links1 {
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 2em 8em 0 2em;
+	padding: 1.5em 10em 0 2em;
 	text-decoration: none;
 }
 
@@ -495,7 +495,7 @@ a.signup {
 .explore-links2 {
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 2em 0 0 14em;
+	padding: 1.5em 0 0 10em;
 }
 
 
