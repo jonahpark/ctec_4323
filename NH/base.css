@@ -471,23 +471,24 @@ a.signup {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	height: 150px;
-	text-align: left;
-	color: #3f5c63;
-	border: 1px solid #3f5c63;
+	
+	height: 125px;
+	border-bottom: 1px solid #3f5c63;
+	border-top: 1px solid #3f5c63;
 	background-color: #ffffff;
-	padding-top: 3em;
+	padding-top: 2em;
 }
 
 .explore-links1 {
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 2em 14em 0 0;
+	padding: 2em 12em 0 0;
 	text-decoration: none;
 }
 
 .explore-links1 a {
 	text-decoration: none;
+	color: #3f5c63;
 }
 
 .explore-links2 {
@@ -499,8 +500,8 @@ a.signup {
 
 .explore-links2 a {
 	text-decoration: none;
+	color: #3f5c63;
 }
-
 
 .explore-container {
 	display: flex;
