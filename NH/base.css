@@ -759,7 +759,7 @@ color: #3f5c63;
     width: 15em;
     height: 15em;
     border-radius: 10em;
-    
+        background: url("images/arnold-profile-image.jpg");
 }
 
 .side-info h3{
@@ -854,17 +854,26 @@ color: #3f5c63;
   font-size: 20px;
     color: #3f5c63;
 }
-.container-imgoing .col-image-big{
+.container-imgoing .col-1-2 .col-image-big{
   background-color: black;
   width: 300px;
   height: 175px; 
 }
-
-.im-going-head{
-    margin-bottom: 5em;
-    margin-top: 7em;
+.container-imgoing .col-1-2 .col-image-big-2{
+  background-color: black;
+  width: 300px;
+  height: 175px; 
 }
-
+/*--- images for im going ---*/
+.container-imgoing .col-1-2 .col-image-big:first-child{
+background: url(images/cedar-ridge.jpg);
+    	background-size: cover;
+}
+.container-imgoing .col-1-2 .col-image-big-2:first-child{
+background: url(images/downtown-cycling.jpg)    ;
+    	background-size: cover;
+}
+/*--- images for im going ---*/
 
 .container.fullwidth {
     width: 100%;
@@ -978,8 +987,31 @@ background-color:#f5f6fa;
   background-color: black;
   width: 350px;
   height: 200px;
-
 }
+.container-imgoing .col-image-big-2-1{
+  background-color: black;
+  width: 350px;
+  height: 200px;
+}
+
+/* --- images for my interest --- */
+.container-imgoing .col-1-3 .col-image-big-2:first-child{
+background: url(images/hiking-background.jpg);
+    	background-size: cover;
+}
+.container-imgoing .col-2-3 .col-image-big-2:first-child{
+background: url(images/ocean-background.jpg);
+    	background-size: cover;
+}
+.container-imgoing .col-image-big-2-1:first-child{
+    background: url(images/cycling-background.jpg);
+    	background-size: cover;
+}
+.container-imgoing .col-2-3 .col-image-big-2-1:first-child{
+  background: url(images/trx-background.jpg);
+    background-size: cover;
+}
+/* --- images for my interest --- */
 .container-imgoing .col-container-3 .going-text{
     width: 92%;
     padding-bottom: 1em;
@@ -1019,9 +1051,11 @@ color: #3f5c63;
 
 .ya-mama .logo-fake{
     width: 150px;
-    height: 150px;
+    height: 180px;
     background-color: black; 
     margin: 1em;
+    background: url(images/Asset-2.png);
+    background-size: cover; 
 }
 
 .ya-mama p{
@@ -1037,7 +1071,8 @@ color: #3f5c63;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 8em;
+    margin-bottom: 8em;
 }
 .parent-full .middle{
     width: 35%;
