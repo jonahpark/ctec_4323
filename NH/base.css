@@ -550,6 +550,30 @@ a.signup {
 
 /*========== Ending of Explore page =========*/
 
+
+/*========== Banner for Community Resources page =========*/
+.banner-cr {
+	background: url("images/backlit-bonding-casual-708392.jpg") no-repeat 0 0 /contain transparent;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-text-cr {
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-ti-cr {
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	line-height: 1.65;
+}
+
+/*========== Ending of Community resources page banner =========*/
+
+
 /* ==== start of form ==== */
 
 .container-signup .container-reservation fieldset button {
