@@ -638,6 +638,11 @@ footer {
 	background: #f35b22;
 }
 
+.sidebar tr td a:first-child{
+    text-decoration: none;
+    color: #3f5c63;
+}
+
 /*========== Ending of Sidebar =========*/
 
 /*========== Beginning of Sign Up Pages =========*/
