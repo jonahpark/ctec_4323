@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5 {
 
   justify-content: space-between;
   -webkit-justify-content: space-between;
+    
+
 }
 
 .nav ul {
@@ -99,7 +101,7 @@ h1, h2, h3, h4, h5 {
   margin-right: 8em;
   padding: 1em 1.5em;
 }
- .sub-nav-doe{
+ /*.sub-nav-doe{
     display: flex;
      justify-content: flex-end;
      position: absolute;
@@ -133,7 +135,7 @@ h1, h2, h3, h4, h5 {
   border-bottom: 2px solid transparent;
   margin-right: 8em;
   padding: 1em 1.5em;
-}
+}*/
 li a:visited {
     text-decoration: none;
     color: #3269B0;
@@ -432,6 +434,11 @@ a.signup {
     display: flex;
     /*justify-content: space-between;*/
 }
+
+.parent .left{
+    width: 50%;
+}
+
 .container-signup .parent .right{
    	display: flex;
 	display: -webkit-flex;
