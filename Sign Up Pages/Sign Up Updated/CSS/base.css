@@ -642,7 +642,6 @@ footer {
     text-decoration: none;
     color: #3f5c63;
 }
-
 /*========== Ending of Sidebar =========*/
 
 /*========== Beginning of Sign Up Pages =========*/
@@ -811,11 +810,65 @@ color: #3f5c63;
   font-size: 20px;
     color: #3f5c63;
 }
-.col-images{
+.col-images-10, .col-images-11, .col-images-12, .col-images-13, .col-images-14, .col-images-15, .col-images-16, .col-images-17, .col-images-18{
   background-color: black;
   width: 250px;
   height: 150px;
 }
+
+/*--- images for find meetup ---*/
+
+.col-images-10{
+   background: url(../Images/meet-up-s.jpg);
+    background-size: cover;
+}
+
+.col-images-11{
+   background: url(../Images/meetup-class.jpg);
+    background-size: cover;
+}
+
+.col-images-12{
+   background: url(../Images/meetup-fit.jpg);
+    background-size: cover;
+}
+
+.col-images-13{
+   background: url(../Images/meetup-camp.jpg);
+    background-size: cover;
+}
+
+.col-images-14{
+   background: url(../Images/meetup-aha.jpg);
+    background-size: cover;
+}
+
+/*--- images for find meetup ---*/
+
+
+
+/*--- images for my meetup ---*/
+.col-images-15{
+   background: url(../Images/meetup-class.jpg);
+    background-size: cover;
+}
+
+.col-images-16{
+   background: url(../Images/meetup-fit.jpg);
+    background-size: cover;
+}
+
+.col-images-17{
+   background: url(../Images/meetup-camp.jpg);
+    background-size: cover;
+}
+
+.col-images-18{
+   background: url(../Images/meetup-aha.jpg);
+    background-size: cover;
+}
+/*--- images for my meetup ---*/
+
 .col-2 button{
     width: 125px;
     height: 30px;
@@ -886,12 +939,43 @@ color: #3f5c63;
 
 }
 
-.s-interests-image {
-  background-image: url("../Images/placeholder.png");
-  background-size: cover;
+.s-interests-image-1, .s-interests-image-2, .s-interests-image-3, .s-interests-image-4, .s-interests-image-5, .s-interests-image-6 {
   width: 250px;
   height: 150px;
 }
+
+.s-interests-image-1{
+    background: url("../Images/bike.jpg");
+      background-size: cover;
+}
+
+.s-interests-image-2{
+        background: url("../Images/tennis.jpg");
+      background-size: cover;
+}
+
+.s-interests-image-3{
+    background: url("../Images/hiking.jpg");
+      background-size: cover;
+}
+
+.s-interests-image-4{
+    background: url("../Images/gym.jpg");
+      background-size: cover;
+}
+
+.s-interests-image-5{
+    background: url("../Images/cross-country.jpg");
+      background-size: cover;
+}
+
+.s-interests-image-6{
+    background: url("../Images/Cooking.jpg");
+      background-size: cover;
+}
+
+
+
 
 .s-interests-description {
   text-align: left;
