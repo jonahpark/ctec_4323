@@ -270,7 +270,7 @@ p {
 
 .logo {
   text-indent: -9999px;
-  background: url("../Images/Asset1.png") no-repeat 0 0 /contain transparent;
+  background: url("../images/Asset1.png") no-repeat 0 0 /contain transparent;
   display: block;
   width: 200px;
   height: 100px;
@@ -450,12 +450,12 @@ a.signup {
 }
 
 .index-works-icons {
-	background: url("../Images/people.jpg") no-repeat 0 0 /contain transparent;
+	background: url("../images/people.jpg") no-repeat 0 0 /contain transparent;
 }
 
 
 .banner {
-	background: url("../Images/people.jpg") no-repeat 0 0 /contain transparent;
+	background: url("../images/people.jpg") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
 }
@@ -773,7 +773,7 @@ a.signup {
     height: 180px;
     background-color: black;
     margin: 1em;
-    background: url(../Images/Asset-2.png);
+    background: url(../images/Asset-2.png);
     background-size: cover;
 }
 
@@ -834,7 +834,7 @@ margin-top: 1.2em;
 
 .container-signup .logo {
   text-indent: -9999px;
-  background: url("../Images/Asset-1.png") no-repeat 0 0 /contain transparent;
+  background: url("../images/Asset-1.png") no-repeat 0 0 /contain transparent;
   display: block;
   width: 200px;
   height: 100px;
@@ -998,27 +998,27 @@ color: #3f5c63;
 /*--- images for find meetup ---*/
 
 .col-images-10{
-   background: url(../Images/meet-up-s.jpg);
+   background: url(../images/meet-up-s.jpg);
     background-size: cover;
 }
 
 .col-images-11{
-   background: url(../Images/meetup-class.jpg);
+   background: url(../images/meetup-class.jpg);
     background-size: cover;
 }
 
 .col-images-12{
-   background: url(../Images/meetup-fit.jpg);
+   background: url(../images/meetup-fit.jpg);
     background-size: cover;
 }
 
 .col-images-13{
-   background: url(../Images/meetup-camp.jpg);
+   background: url(../images/meetup-camp.jpg);
     background-size: cover;
 }
 
 .col-images-14{
-   background: url(../Images/meetup-aha.jpg);
+   background: url(../images/meetup-aha.jpg);
     background-size: cover;
 }
 
@@ -1028,22 +1028,22 @@ color: #3f5c63;
 
 /*--- images for my meetup ---*/
 .col-images-15{
-   background: url(../Images/meetup-class.jpg);
+   background: url(../images/meetup-class.jpg);
     background-size: cover;
 }
 
 .col-images-16{
-   background: url(../Images/meetup-fit.jpg);
+   background: url(../images/meetup-fit.jpg);
     background-size: cover;
 }
 
 .col-images-17{
-   background: url(../Images/meetup-camp.jpg);
+   background: url(../images/meetup-camp.jpg);
     background-size: cover;
 }
 
 .col-images-18{
-   background: url(../Images/meetup-aha.jpg);
+   background: url(../images/meetup-aha.jpg);
     background-size: cover;
 }
 /*--- images for my meetup ---*/
@@ -1124,32 +1124,32 @@ color: #3f5c63;
 }
 
 .s-interests-image-1{
-    background: url("../Images/bike.jpg");
+    background: url("../images/bike.jpg");
       background-size: cover;
 }
 
 .s-interests-image-2{
-        background: url("../Images/tennis.jpg");
+        background: url("../images/tennis.jpg");
       background-size: cover;
 }
 
 .s-interests-image-3{
-    background: url("../Images/hiking.jpg");
+    background: url("../images/hiking.jpg");
       background-size: cover;
 }
 
 .s-interests-image-4{
-    background: url("../Images/gym.jpg");
+    background: url("../images/gym.jpg");
       background-size: cover;
 }
 
 .s-interests-image-5{
-    background: url("../Images/cross-country.jpg");
+    background: url("../images/cross-country.jpg");
       background-size: cover;
 }
 
 .s-interests-image-6{
-    background: url("../Images/Cooking.jpg");
+    background: url("../images/Cooking.jpg");
       background-size: cover;
 }
 
@@ -1186,7 +1186,7 @@ color: #3f5c63;
 /*========== Beginning of Explore page =========*/
 
 .banner-explore {
-	background: url("../Images/action-adult-balance-163452.jpg") no-repeat 0 0 /contain transparent;
+	background: url("../images/action-adult-balance-163452.jpg") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
 }
@@ -1295,7 +1295,7 @@ color: #3f5c63;
 
 /*========== Banner for Community Resources page =========*/
 .banner-cr {
-	background: url("../Images/collaboration-colleagues-cooperation-398532.jpg") no-repeat 0 0 /contain transparent;
+	background: url("../images/collaboration-colleagues-cooperation-398532.jpg") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
 }
@@ -1335,7 +1335,7 @@ color: #3f5c63;
     width: 15em;
     height: 15em;
     border-radius: 10em;
-        background: url("../Images/action-blue-diver-863988.jpg");
+        background: url("../images/action-blue-diver-863988.jpg");
 }
 
 .side-info h3{
@@ -1443,11 +1443,11 @@ color: #3f5c63;
 }
 /*--- images for im going ---*/
 .container-imgoing .col-1-2 .col-image-big:first-child{
-background: url(../Images/adventure-backpack-blue-mountains-868097.jpg);
+background: url(../images/adventure-backpack-blue-mountains-868097.jpg);
     	background-size: cover;
 }
 .container-imgoing .col-1-2 .col-image-big-2:first-child{
-background: url(../Images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
+background: url(../images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
     	background-size: cover;
 }
 /*--- images for im going ---*/
@@ -1573,19 +1573,19 @@ background-color:#f5f6fa;
 
 /* --- images for my interest --- */
 .container-imgoing .col-1-3 .col-image-big-2:first-child{
-background: url(../Images/hiking.jpg);
+background: url(../images/hiking.jpg);
     	background-size: cover;
 }
 .container-imgoing .col-2-3 .col-image-big-2:first-child{
-background: url(../Images/pool.jpg);
+background: url(../images/pool.jpg);
     	background-size: cover;
 }
 .container-imgoing .col-image-big-2-1:first-child{
-    background: url(../Images/bike.jpg);
+    background: url(../images/bike.jpg);
     	background-size: cover;
 }
 .container-imgoing .col-2-3 .col-image-big-2-1:first-child{
-  background: url(../Images/gym.jpg);
+  background: url(../images/gym.jpg);
     background-size: cover;
 }
 /* --- images for my interest --- */
