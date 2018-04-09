@@ -1,29 +1,29 @@
 /*
-  Author: Sandra Barcenas, Lea Isabel Cutillar, Sang Park, Sarina Proctor, Josh Roper
-  Date: 09.12.2017
-  Purpose: Used to edit home.html
-  Version: 0.0.1
+Author: Sandra Barcenas, Lea Isabel Cutillar, Sang Park, Sarina Proctor, Josh Roper
+Date: 09.12.2017
+Purpose: Used to edit home.html
+Version: 0.0.1
 */
 
 /* ====  Import Font Families ==== */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
 
 @font-face {
-font-family: 'Bebas Neue';
-src: url('BebasNeue-Regular.eot'); /* IE9 Compat Modes */
-src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('BebasNeue-Regular.woff') format('woff'), /* Modern Browsers */
-url('BebasNeue-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-url('BebasNeue-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue-Regular.eot'); /* IE9 Compat Modes */
+	src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('BebasNeue-Regular.woff') format('woff'), /* Modern Browsers */
+	url('BebasNeue-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('BebasNeue-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 /* ==== End of Import Font Families ==== */
 
 body {
 	width: 100%;
 	font-size: 12px;
-  height: auto;
-  margin: 0;
- 	padding: 0;
+	height: auto;
+	margin: 0;
+	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 
 	/* line-height: 1.65 */
@@ -41,7 +41,7 @@ h1 {
 	line-height: 7rem;
 	margin: 0;
 	font-weight: 700;
-  color: #3F5C63;
+	color: #3F5C63;
 }
 
 h2 {
@@ -49,7 +49,7 @@ h2 {
 	line-height: 4.5rem;
 	margin: 0;
 	font-weight: 100;
-  color: #3F5C63;
+	color: #3F5C63;
 }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
 	line-height: 3rem;
 	margin: 0;
 	font-weight: 100;
-  color: #3F5C63;
+	color: #3F5C63;
 }
 
 h4 {
@@ -65,13 +65,13 @@ h4 {
 	line-height: 2rem;
 	margin: 0;
 	font-weight: 100;
-  color: #3F5C63;
+	color: #3F5C63;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
-  color: #3F5C63;
+	color: #3F5C63;
 }
 
 /*========== Ending of Typography =========*/
@@ -175,28 +175,28 @@ p {
 
 	justify-content: flex-start;
 	-webkit-justify-content: flex-start;
-	}
+}
 
 /* ==== End of Sign Up Pages Buttons ==== */
 
 /*========== Beginning of CTA - Call to action =========*/
 
 .container.fullwidth {
-    width: 100%;
+	width: 100%;
 }
 
 .fullwidth .calltoaction {
-  margin: 0;
-  width: 100%;
+	margin: 0;
+	width: 100%;
 }
 
 .calltoaction {
-  display: block;
-  display: -webkit-block;
+	display: block;
+	display: -webkit-block;
 
-  position: relative;
-  width: 100%;
-  padding: 20px;
+	position: relative;
+	width: 100%;
+	padding: 20px;
 	background-color: #fff;
 }
 
@@ -213,10 +213,10 @@ p {
 }
 
 .calltoaction .cta-container {
-  display: table;
-  padding: 25px 25px;
-  width: 100%;
-  /*max-width: 1210px;*/
+	display: table;
+	padding: 25px 25px;
+	width: 100%;
+	/*max-width: 1210px;*/
 }
 
 .cta-primary-btn {
@@ -228,40 +228,40 @@ p {
 	font-weight: 500;
 	text-decoration: none;
 	text-align: center;
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .cta-primary-btn:hover {
-  padding: 0.5em;
+	padding: 0.5em;
 	background-color: #F35B22;
 	color: #F5F6FA;
 }
 
 .calltoaction .cta-primary-btn {
-  width: 15%;
-  position: relative;
-  vertical-align: middle;
-  display: table-cell;
-  margin-right: 0;
+	width: 15%;
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+	margin-right: 0;
 }
 
 .cta-text h3 {
-  color: #3F5C63;
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 25px;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1.4;
-  margin-top: 0;
-  letter-spacing: -.4px;
+	color: #3F5C63;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1.4;
+	margin-top: 0;
+	letter-spacing: -.4px;
 }
 
 .cta-text p {
-  color: #66939E;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.4;
+	color: #66939E;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.4;
 }
 
 /*========== Ending of CTA - Call to action =========*/
@@ -269,125 +269,125 @@ p {
 /*==========Beginning of Header =========*/
 
 .logo {
-  text-indent: -9999px;
-  background: url("../images/Asset1.png") no-repeat 0 0 /contain transparent;
-  display: block;
-  width: 200px;
-  height: 100px;
-  margin: 0;
+	text-indent: -9999px;
+	background: url("../images/Asset1.png") no-repeat 0 0 /contain transparent;
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin: 0;
 }
 
 .header {
-  background-color: #3f5c63;
-  display: flex;
-  display: -webkit-flex;
+	background-color: #3f5c63;
+	display: flex;
+	display: -webkit-flex;
 
-  justify-content: space-around;
-  -webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
 
-  align-items: center;
-  -webkit-align-items: center;
+	align-items: center;
+	-webkit-align-items: center;
 
-  padding: 2em;
-  /*width: 100%;*/
+	padding: 2em;
+	/*width: 100%;*/
 }
 
 /*========== Ending of Header =========*/
 
 /*========== Beginning of Navigation =========*/
- .sub-nav{
-    display: flex;
-     justify-content: flex-end;
+.sub-nav{
+	display: flex;
+	justify-content: flex-end;
 }
 /*
 .sub-nav-doe .sub-nav{
-      margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 
-  display: flex;
-  display: -webkit-flex;
+display: flex;
+display: -webkit-flex;
 
-  list-style-type: none;
+list-style-type: none;
 }
 
 .sub-nav-doe .sub-nav li{
-     display: inline-block;
-  display: -webkit-inline-block;
+display: inline-block;
+display: -webkit-inline-block;
 }
 
 .sub-nav-doe .sub-nav li a{
-      display: block;
-  display: -webkit-block;
-  color: #f5f6fa;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-size: 11px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-bottom: 2px solid transparent;
-  margin-right: 8em;
-  padding: 1em 1.5em;
+display: block;
+display: -webkit-block;
+color: #f5f6fa;
+letter-spacing: 2px;
+font-weight: 600;
+font-size: 11px;
+text-decoration: none;
+text-transform: uppercase;
+border-bottom: 2px solid transparent;
+margin-right: 8em;
+padding: 1em 1.5em;
 }*/
 .nav {
-  display: flex;
-  display: -webkit-flex;
+	display: flex;
+	display: -webkit-flex;
 
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-    
- 
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+
 }
 
 .nav ul {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 
-  display: flex;
-  display: -webkit-flex;
+	display: flex;
+	display: -webkit-flex;
 
-  list-style-type: none;
+	list-style-type: none;
 }
 
 ul.nav li {
-  display: inline-block;
-  display: -webkit-inline-block;
+	display: inline-block;
+	display: -webkit-inline-block;
 
 }
 
 .nav a {
-  display: block;
-  display: -webkit-block;
-  color: #f5f6fa;
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-size: 12px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-bottom: 2px solid transparent;
-  margin-right: 8em;
-  padding: 1em 1.5em;
+	display: block;
+	display: -webkit-block;
+	color: #f5f6fa;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	margin-right: 8em;
+	padding: 1em 1.5em;
 
 }
 
 .nav li a{
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 
 /*
 li a:visited {
-    text-decoration: none;
-    color: #3269B0;
+text-decoration: none;
+color: #3269B0;
 }
 */
 li a:hover {
-    color: #E47526;
+	color: #E47526;
 }
 
 li a:active {
-    border-bottom: 2px solid #f35b22;
-    padding-bottom: 0.5em;
+	border-bottom: 2px solid #f35b22;
+	padding-bottom: 0.5em;
 }
 
 a.signup:hover {
@@ -466,9 +466,9 @@ a.signup {
 }
 
 .banner-first-text {
-    display:flex;
-    flex-direction: column;
-    padding:70px;
+	display:flex;
+	flex-direction: column;
+	padding:70px;
 }
 
 .banner-text-items {
@@ -494,7 +494,7 @@ a.signup {
 	flex-direction: row;
 	-webkit-flex-direction: row;
 
-    align-items:center;
+	align-items:center;
 
 	justify-content:space-around;
 	-webkit-justify-content:space-around;
@@ -504,10 +504,10 @@ a.signup {
 }
 
 .first-box {
-    max-width:100%;
+	max-width:100%;
 	width: 100%;
 
-    margin-right:0;
+	margin-right:0;
 
 }
 
@@ -517,7 +517,7 @@ a.signup {
 }
 
 .first-info img {
-    max-width:100%;
+	max-width:100%;
 	width: 45%;
 	height:30%;
 
@@ -547,16 +547,16 @@ a.signup {
 
 .title {
 
-    text-align:center;
-    font-weight:900;
-    font-size:25px;
-    padding-top:50px;
-    width:100%;
-    max-width:100%;
+	text-align:center;
+	font-weight:900;
+	font-size:25px;
+	padding-top:50px;
+	width:100%;
+	max-width:100%;
 }
 
 .index-info {
-    display:flex;
+	display:flex;
 	color: #1d4070;
 
 	justify-content: center;
@@ -583,10 +583,10 @@ a.signup {
 }
 
 .progress {
-    margin: 15em 0;
-    width:100px;
-    height:2px;
-    background-color:#E4752B;
+	margin: 15em 0;
+	width:100px;
+	height:2px;
+	background-color:#E4752B;
 }
 
 .city-container {
@@ -596,11 +596,11 @@ a.signup {
 }
 
 .locations-city-container {
-    display: flex;
+	display: flex;
 	display:-webkit-flex;
 
 	flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 
 	justify-content:space-around;
 	-webkit-justify-content:space-around;
@@ -646,35 +646,35 @@ a.signup {
 /* ==== Sign Up Pages Layout ==== */
 
 .signup-layout-container {
-  display: flex;
-  display: -webkit-flex;
+	display: flex;
+	display: -webkit-flex;
 
-  justify-content: center;
-  -webkit-justify-content: center;
+	justify-content: center;
+	-webkit-justify-content: center;
 
-  align-items: flex-start;
-  -webkit-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
 
-  margin: 2em 0 2em 0;
+	margin: 2em 0 2em 0;
 }
 
 .s-layout-left {
-  display: flex;
+	display: flex;
 	display: -webkit-flex;
 
-  flex-basis: 30%;
-  -webkit-flex-basis: 30%;
+	flex-basis: 30%;
+	-webkit-flex-basis: 30%;
 }
 
 .s-layout-right {
-  display: flex;
-  display: -webkit-flex;
+	display: flex;
+	display: -webkit-flex;
 
-  flex-basis: 70%;
-  -webkit-flex-basis: 70%;
+	flex-basis: 70%;
+	-webkit-flex-basis: 70%;
 
-  justify-content: flex-start;
-  -webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
 }
 
 /* ==== End of Sign Up Pages Layout ==== */
@@ -682,30 +682,30 @@ a.signup {
 /* ==== Sign Up Banner ==== */
 
 .signup-header-banner {
-  height: auto;
-  padding: 2em;
+	height: auto;
+	padding: 2em;
 }
 
 .signup-header-container {
-  display: flex;
-  display: -webkit-flex;
+	display: flex;
+	display: -webkit-flex;
 
-  justify-content: center;
-  -webkit-justify-content: center;
+	justify-content: center;
+	-webkit-justify-content: center;
 
-  align-items: center;
-  -webkit-align-items: center;
+	align-items: center;
+	-webkit-align-items: center;
 }
 
 .signup-header-title h3 {
-  text-align: center;
+	text-align: center;
 }
 
 .signup-header-description p {
-  color: #1C4070;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
+	color: #1C4070;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 /* ==== End of Sign Up Banner ===== */
@@ -754,46 +754,46 @@ a.signup {
 }
 
 .sidebar tr td a:first-child{
-    text-decoration: none;
-    color: #3f5c63;
+	text-decoration: none;
+	color: #3f5c63;
 }
 /*========== Ending of Sidebar =========*/
 
 /* ==== start of login screen ==== */
 
 .ya-mama{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .ya-mama .logo-fake{
-    width: 150px;
-    height: 180px;
-    background-color: black;
-    margin: 1em;
-    background: url(../images/Asset-2.png);
-    background-size: cover;
+	width: 150px;
+	height: 180px;
+	background-color: black;
+	margin: 1em;
+	background: url(../images/Asset-2.png);
+	background-size: cover;
 }
 
 .ya-mama p{
-    font-size: 18px;
-color: #3f5c63;
-    font-weight: 500;
-    margin-bottom: 2.2em;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 500;
+	margin-bottom: 2.2em;
 }
 
 .parent-full{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8em;
-    margin-bottom: 8em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8em;
+	margin-bottom: 8em;
 }
 .parent-full .middle{
-    width: 35%;
+	width: 35%;
 }
 
 .middle .sign-up-doe{
@@ -801,30 +801,30 @@ color: #3f5c63;
 }
 
 .middle #sign-up button{
-      width:100%;
-margin-top: 1.2em;
-    padding: .9em;
-    font-size: 20px;
-    background-color: #3f5c63;
-    color: white;
+	width:100%;
+	margin-top: 1.2em;
+	padding: .9em;
+	font-size: 20px;
+	background-color: #3f5c63;
+	color: white;
 }
 
 #sign-up p{
-    text-align: center;
-    width: 100%;
-    font-size: 16px;
-    color: #3f5c63;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	color: #3f5c63;
 }
 
 #sign-up p a{
-    text-decoration: none;
-    color: #f35b22;
+	text-decoration: none;
+	color: #f35b22;
 }
 
 #sign-up .sign-up-labels{
-     width: 100%;
-    font-size: 16px;
-    color: #3f5c63;
+	width: 100%;
+	font-size: 16px;
+	color: #3f5c63;
 }
 /* ==== end of login screen ==== */
 
@@ -833,22 +833,22 @@ margin-top: 1.2em;
 /* ==== Sign Up - Create your account, Find a meetup, My meetups ==== */
 
 .container-signup .logo {
-  text-indent: -9999px;
-  background: url("../images/Asset-1.png") no-repeat 0 0 /contain transparent;
-  display: block;
-  width: 200px;
-  height: 100px;
-  margin: 0;
+	text-indent: -9999px;
+	background: url("../images/Asset-1.png") no-repeat 0 0 /contain transparent;
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin: 0;
 }
 
 .container-signup .parent{
-    display: flex;
-    /*justify-content: space-between;*/
+	display: flex;
+	/*justify-content: space-between;*/
 }
 
 
 .container-signup .parent .right{
-   	display: flex;
+	display: flex;
 	display: -webkit-flex;
 
 	flex-direction: column;
@@ -856,54 +856,54 @@ margin-top: 1.2em;
 
 	justify-content: space-between;
 	-webkit-justify-content: space-between;
-	
+
 	margin-top: 0em;
 	margin-right: 0em;
-	
+
 }
 /* ==== Sign Up - Create your account form ==== */
 
 .container-signup .container-reservation fieldset button {
-  width:100%;
-margin-top: 2em;
-    padding: 1.3em;
-    font-size: 20px;
-    background-color: #3f5c63;
-    color: white;
+	width:100%;
+	margin-top: 2em;
+	padding: 1.3em;
+	font-size: 20px;
+	background-color: #3f5c63;
+	color: white;
 }
 
 .container-signup fieldset{
-    border: none;
+	border: none;
 }
 
 .container-signup .container-reservation{
-    width: 60em;
-    margin:auto;
-    border: none;
-  }
+	width: 60em;
+	margin:auto;
+	border: none;
+}
 
 #basic-info{
-    width: 100%;
+	width: 100%;
 }
 #contact-form{
-    width: 100%;
+	width: 100%;
 }
 
 .container-signup .form-labels{
-    justify-content: center;
-    font-size: 15px;
- 		margin-left: .2em;
-    font-weight: 400;
-    color: #3f5c63;
+	justify-content: center;
+	font-size: 15px;
+	margin-left: .2em;
+	font-weight: 400;
+	color: #3f5c63;
 
 }
 
 .container-signup ::placeholder{
-    color: lightgrey;
+	color: lightgrey;
 }
 .container-signup .container-reservation label {
-  text-align: center;
-    font-size: 18px;
+	text-align: center;
+	font-size: 18px;
 
 }
 
@@ -913,113 +913,113 @@ input[type="number"],
 input[type="phone"],
 select
 {
-   margin-top: 1em;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-bottom:1px solid #888;
-    width: 100%;
-    padding: .2em;
-    margin-bottom: 1em;
-    font-size: 15px;
+	margin-top: 1em;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1px solid #888;
+	width: 100%;
+	padding: .2em;
+	margin-bottom: 1em;
+	font-size: 15px;
 }
 
 #location-shiz {
-    font-size: 15px;
-    color: #3f5c63;
+	font-size: 15px;
+	color: #3f5c63;
 }
 /* ==== End of Sign Up - Create your account Form ==== */
 
 /* ==== Sign Up - Find a meetup, My meetups ==== */
 /*
 .container-signup .right .container-mymeetups{
-    background-color: aqua;
-    width: 70em;
-    height: 70em;
-    display: flex;
-    flex-direction: row;
+background-color: aqua;
+width: 70em;
+height: 70em;
+display: flex;
+flex-direction: row;
 }
 .container-signup .container-mymeetups mmu-col-1{
 flex: 1;
-    width: 60em;
-    height: 60em;
+width: 60em;
+height: 60em;
 }
 .container-signup .container-mymeetups mmu-col-2{
 
 }
 .container-signup .container-mymeetups mmu-col-1 .mmu-images{
-    width: 250px;
-    height: 500px;
-    background-color: black;
+width: 250px;
+height: 500px;
+background-color: black;
 }
 .container-signup .container-mymeetups mmu-col-2 p{
-    font-size: 50px;
+font-size: 50px;
 }*/
 
 .container-meetup{
 
 }
 .col-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding-bottom: 2em;
 	width: 900px;
 }
 .col-1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .col-2{
-  align-items: flex-start;
-  justify-content: flex-start;
+	align-items: flex-start;
+	justify-content: flex-start;
 	padding-left: 1em;
 }
 .col-2 p {
-  margin-top: 0px;
-  max-width: 700px;
-  font-size: 14px;
-color: #3f5c63;
-    font-weight: 300;
-    margin-bottom: .5em;
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 14px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: .5em;
 }
 .col-2 h3{
-  margin-bottom: .5em;
-  font-size: 20px;
-    color: #3f5c63;
+	margin-bottom: .5em;
+	font-size: 20px;
+	color: #3f5c63;
 }
 .col-images-10, .col-images-11, .col-images-12, .col-images-13, .col-images-14, .col-images-15, .col-images-16, .col-images-17, .col-images-18{
-  background-color: black;
-  width: 250px;
-  height: 150px;
+	background-color: black;
+	width: 250px;
+	height: 150px;
 }
 
 /*--- images for find meetup ---*/
 
 .col-images-10{
-   background: url(../images/meet-up-s.jpg);
-    background-size: cover;
+	background: url(../images/meet-up-s.jpg);
+	background-size: cover;
 }
 
 .col-images-11{
-   background: url(../images/meetup-class.jpg);
-    background-size: cover;
+	background: url(../images/meetup-class.jpg);
+	background-size: cover;
 }
 
 .col-images-12{
-   background: url(../images/meetup-fit.jpg);
-    background-size: cover;
+	background: url(../images/meetup-fit.jpg);
+	background-size: cover;
 }
 
 .col-images-13{
-   background: url(../images/meetup-camp.jpg);
-    background-size: cover;
+	background: url(../images/meetup-camp.jpg);
+	background-size: cover;
 }
 
 .col-images-14{
-   background: url(../images/meetup-aha.jpg);
-    background-size: cover;
+	background: url(../images/meetup-aha.jpg);
+	background-size: cover;
 }
 
 /*--- images for find meetup ---*/
@@ -1028,33 +1028,33 @@ color: #3f5c63;
 
 /*--- images for my meetup ---*/
 .col-images-15{
-   background: url(../images/meetup-class.jpg);
-    background-size: cover;
+	background: url(../images/meetup-class.jpg);
+	background-size: cover;
 }
 
 .col-images-16{
-   background: url(../images/meetup-fit.jpg);
-    background-size: cover;
+	background: url(../images/meetup-fit.jpg);
+	background-size: cover;
 }
 
 .col-images-17{
-   background: url(../images/meetup-camp.jpg);
-    background-size: cover;
+	background: url(../images/meetup-camp.jpg);
+	background-size: cover;
 }
 
 .col-images-18{
-   background: url(../images/meetup-aha.jpg);
-    background-size: cover;
+	background: url(../images/meetup-aha.jpg);
+	background-size: cover;
 }
 /*--- images for my meetup ---*/
 
 .col-2 button{
-    width: 125px;
-    height: 30px;
-    background-color: #3f5c63;
-    color: white;
-    margin-right: 1.2em;
-    margin-bottom: 2em;
+	width: 125px;
+	height: 30px;
+	background-color: #3f5c63;
+	color: white;
+	margin-right: 1.2em;
+	margin-bottom: 2em;
 }
 
 .btn-primary-btn-small {
@@ -1064,31 +1064,31 @@ color: #3f5c63;
 
 
 .submit{
-   position: relative;
-    left: 10.3em;
-    top: .5em;
-    width: 250px;
-    height: 40px;
-    background-color: #3f5c63;
-    color: #F5F6FA;
+	position: relative;
+	left: 10.3em;
+	top: .5em;
+	width: 250px;
+	height: 40px;
+	background-color: #3f5c63;
+	color: #F5F6FA;
 }
 
 #contact-form p{
-    text-align: center;
-    width: 100%;
-    font-size: 15px;
-    color: #3f5c63;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	color: #3f5c63;
 }
 
 #contact-form p a{
-    text-decoration: none;
-    color: #f35b22;
+	text-decoration: none;
+	color: #f35b22;
 }
 
 .container-meetup .col-headline{
-    color: #3f5c63;
-    font-size: 24px;
-    margin-bottom: .2em;
+	color: #3f5c63;
+	font-size: 24px;
+	margin-bottom: .2em;
 }
 
 /* ==== End of Sign Up - Find a meetup, My meetups ==== */
@@ -1096,65 +1096,65 @@ color: #3f5c63;
 /* ==== Sign Up - Follow Interests Main Content ==== */
 
 .s-interests-right-grid {
-  display: flex;
+	display: flex;
 	display:-webkit-flex;
 
 	justify-content: center;
 	-webkit-justify-content: center;
 
-  width: 900px;
+	width: 900px;
 
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 }
 
 .s-interests-right-container {
-  width: 250px;
+	width: 250px;
 	height: 240px;
 	line-height: 1.65;
 	align-items: center;
 
-  padding-right: 4em;
-  padding-bottom: 4em;
+	padding-right: 4em;
+	padding-bottom: 4em;
 }
 
 .s-interests-image-1, .s-interests-image-2, .s-interests-image-3, .s-interests-image-4, .s-interests-image-5, .s-interests-image-6 {
-  width: 250px;
-  height: 150px;
+	width: 250px;
+	height: 150px;
 }
 
 .s-interests-image-1{
-    background: url("../images/bike.jpg");
-      background-size: cover;
+	background: url("../images/bike.jpg");
+	background-size: cover;
 }
 
 .s-interests-image-2{
-        background: url("../images/tennis.jpg");
-      background-size: cover;
+	background: url("../images/tennis.jpg");
+	background-size: cover;
 }
 
 .s-interests-image-3{
-    background: url("../images/hiking.jpg");
-      background-size: cover;
+	background: url("../images/hiking.jpg");
+	background-size: cover;
 }
 
 .s-interests-image-4{
-    background: url("../images/gym.jpg");
-      background-size: cover;
+	background: url("../images/gym.jpg");
+	background-size: cover;
 }
 
 .s-interests-image-5{
-    background: url("../images/cross-country.jpg");
-      background-size: cover;
+	background: url("../images/cross-country.jpg");
+	background-size: cover;
 }
 
 .s-interests-image-6{
-    background: url("../images/Cooking.jpg");
-      background-size: cover;
+	background: url("../images/Cooking.jpg");
+	background-size: cover;
 }
 
 .s-interests-description {
-  text-align: left;
+	text-align: left;
 	line-height: 1.65;
 	color: #3F5C63;
 	border: 1px solid #ffffff;
@@ -1321,74 +1321,72 @@ color: #3f5c63;
 
 /* ==== start of my account ==== */
 .side-info{
-    display: flex;
-    flex-direction: column;
-    width:35em;
-    height: 100%;
-    align-items: center;
-    background-color: #f5f6fa;
-    margin-right: 5em;
+	display: flex;
+	flex-direction: column;
+	width:35em;
+	height: 100%;
+	align-items: center;
+	background-color: #f5f6fa;
+	margin-right: 5em;
 }
 .side-info .profile-image{
-    margin-top: 8em;
-    background-color: black;
-    width: 15em;
-    height: 15em;
-    border-radius: 10em;
-        background: url("../images/action-blue-diver-863988.jpg");
+	margin-top: 8em;
+	background-color: black;
+	width: 15em;
+	height: 15em;
+	border-radius: 10em;
+	background: url("../images/action-blue-diver-863988.jpg");
 }
 
 .side-info h3{
-  font-size: 22px;
-    color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 500;
-    margin-bottom: 1.3em;
+	font-size: 22px;
+	color: #3f5c63;
+	font-weight: 500;
+	margin-bottom: 1.3em;
 }
 
 .side-info button{
-  width: 18em;
-    height: 3.2em;
-    background-color: #3f5c63;
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-  margin-bottom: 1.3em;
+	width: 18em;
+	height: 3.2em;
+	background-color: #3f5c63;
+	color: white;
+	font-family: 'Nunito Sans', sans-serif;
+	margin-bottom: 1.3em;
 }
 
 .container-my-account{
-   display: flex;
-    flex-direction: column;
-    width: 70em;
-    height: 50em;
-    margin-top: 4.6em;
+	display: flex;
+	flex-direction: column;
+	width: 70em;
+	height: 50em;
+	margin-top: 4.6em;
 }
 
 .head-doe{
-      font-size: 22px;
-    color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    margin-bottom: .5em;
+	font-size: 22px;
+	color: #3f5c63;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: .5em;
 }
 
 .orange-underline{
-     font-size: 16px;
-    color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    padding-bottom: .3em;
-    border-bottom: 2px solid #f35b22;
-    max-width: 45em;
+	font-size: 16px;
+	color: #3f5c63;
+	font-family: 'Nunito Sans', sans-serif;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-bottom: .3em;
+	border-bottom: 2px solid #f35b22;
+	max-width: 45em;
 }
 
 .container-my-account h5{
-      font-size: 20px;
-    color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    margin-top: 2.1em;
-    margin-bottom: .5em;
+	font-size: 20px;
+	color: #3f5c63;
+	font-weight: 400;
+	margin-top: 2.1em;
+	margin-bottom: .5em;
 }
 
 /* ==== end of my account ==== */
@@ -1396,133 +1394,131 @@ color: #3f5c63;
 
 /* ==== start of im going ==== */
 .container-imgoing{
-    max-width: 60em;
-    min-height: 60em;
-    margin-top: 4.6em;
+	max-width: 60em;
+	min-height: 60em;
+	margin-top: 4.6em;
 }
 .container-imgoing .col-container-2{
-      display: flex;
-  align-items: center;
-  justify-content: center;
-    margin-bottom: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1em;
 }
 .container-imgoing .col-1-2{
-    margin-right: 1em;
-  Width:50%;
-  display: flex;
+	margin-right: 1em;
+	Width:50%;
+	display: flex;
 }
 .container-imgoing .col-2{
-  Width:100%;
+	Width:100%;
 
-  align-items: flex-start;
-  justify-content: flex-start;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .container-imgoing .col-2 p {
-  margin-top: 0px;
-  max-width: 700px;
-  font-size: 18px;
-color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
-    margin-bottom: 0em;
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: 0em;
 }
 .container-imgoing .col-2 h3{
-  margin-bottom: .5em;
-  font-size: 20px;
-    color: #3f5c63;
+	margin-bottom: .5em;
+	font-size: 20px;
+	color: #3f5c63;
 }
 .container-imgoing .col-1-2 .col-image-big{
-  background-color: black;
-  width: 300px;
-  height: 175px;
+	background-color: black;
+	width: 300px;
+	height: 175px;
 }
 .container-imgoing .col-1-2 .col-image-big-2{
-  background-color: black;
-  width: 300px;
-  height: 175px;
+	background-color: black;
+	width: 300px;
+	height: 175px;
 }
 /*--- images for im going ---*/
 .container-imgoing .col-1-2 .col-image-big:first-child{
-background: url(../images/adventure-backpack-blue-mountains-868097.jpg);
-    	background-size: cover;
+	background: url(../images/adventure-backpack-blue-mountains-868097.jpg);
+	background-size: cover;
 }
 .container-imgoing .col-1-2 .col-image-big-2:first-child{
-background: url(../images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
-    	background-size: cover;
+	background: url(../images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
+	background-size: cover;
 }
 /*--- images for im going ---*/
 
 .container.fullwidth {
-    width: 100%;
+	width: 100%;
 }
 
 .calltoaction-2 {
-    margin-top: 20em;
-  display: block;
-  display: -webkit-block;
-  position: relative;
-  width: 100%;
-  background-color: #ffffff;
+	margin-top: 20em;
+	display: block;
+	display: -webkit-block;
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
 
 }
 
 .calltoaction-2 .cta-container-2 {
-  display: table;
- padding-bottom: 45px;
-    padding-top: 45px;
-  width: 100%;
+	display: table;
+	padding-bottom: 45px;
+	padding-top: 45px;
+	width: 100%;
 
 }
 
 .calltoaction-2 .cta-text-2 {
-  width: 100%;
+	width: 100%;
 }
 .calltoaction-2 .cta-text-2 h3{
-font-size: 18px;
-    color: #3f5c63;
-    font-weight: 400;
-    margin-bottom: 0em;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 400;
+	margin-bottom: 0em;
 }
 .calltoaction-2 .cta-text-2 p{
-    margin-top: 0em;
-    font-size: 16px;
-color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
+	margin-top: 0em;
+	font-size: 16px;
+	color: #3f5c63;
+	font-weight: 300;
 }
 
 .box-doe{
-    width: 30%;
-  position: relative;
-  vertical-align: middle;
-  display: table-cell;
-  margin-right: 0;
- text-align: right;
+	width: 30%;
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+	margin-right: 0;
+	text-align: right;
 }
 /*
 .calltoaction-2 .cta-primary-btn-2{
-  width: 20%;
-  position: relative;
-  vertical-align: middle;
-  display: table-cell;
-  margin-right: 0;
+width: 20%;
+position: relative;
+vertical-align: middle;
+display: table-cell;
+margin-right: 0;
 }*/
 
 .cta-primary-btn-2{
-  background-color: #f35b22;
-  border: 2px solid transparent;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
- padding: .5em;
+	background-color: #f35b22;
+	border: 2px solid transparent;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: .5em;
 }
 
 .cta-primary-btn-2:hover {
-  background-color: #fff;
-  border: 2px solid #E4752B;
-  padding: 0.5em;
-  color: #E4752B;
+	background-color: #fff;
+	border: 2px solid #E4752B;
+	padding: 0.5em;
+	color: #E4752B;
 }
 
 
@@ -1533,82 +1529,81 @@ color: #3f5c63;
 /* ==== start of my interest ==== */
 
 .container-imgoing{
-    max-width: 60em;
-    min-height: 60em;
+	max-width: 60em;
+	min-height: 60em;
 }
 .container-imgoing .col-container-3{
-      display: flex;
-  align-items: center;
-  justify-content: center;
-    margin-bottom: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1em;
 }
 .container-imgoing .col-1-3{
-background-color: #f5f6fa;
-  Width:50%;
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-     border: 5px solid white;
+	background-color: #f5f6fa;
+	Width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid white;
 }
 
 .container-imgoing .col-2-3{
-background-color:#f5f6fa;
-  Width:50%;
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 5px solid white;
+	background-color:#f5f6fa;
+	Width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid white;
 }
 
 .container-imgoing .col-image-big-2{
-  background-color: black;
-  width: 350px;
-  height: 200px;
+	background-color: black;
+	width: 350px;
+	height: 200px;
 }
 .container-imgoing .col-image-big-2-1{
-  background-color: black;
-  width: 350px;
-  height: 200px;
+	background-color: black;
+	width: 350px;
+	height: 200px;
 }
 
 /* --- images for my interest --- */
 .container-imgoing .col-1-3 .col-image-big-2:first-child{
-background: url(../images/hiking.jpg);
-    	background-size: cover;
+	background: url(../images/hiking.jpg);
+	background-size: cover;
 }
 .container-imgoing .col-2-3 .col-image-big-2:first-child{
-background: url(../images/pool.jpg);
-    	background-size: cover;
+	background: url(../images/pool.jpg);
+	background-size: cover;
 }
 .container-imgoing .col-image-big-2-1:first-child{
-    background: url(../images/bike.jpg);
-    	background-size: cover;
+	background: url(../images/bike.jpg);
+	background-size: cover;
 }
 .container-imgoing .col-2-3 .col-image-big-2-1:first-child{
-  background: url(../images/gym.jpg);
-    background-size: cover;
+	background: url(../images/gym.jpg);
+	background-size: cover;
 }
 /* --- images for my interest --- */
 .container-imgoing .col-container-3 .going-text{
-    width: 92%;
-    padding-bottom: 1em;
+	width: 92%;
+	padding-bottom: 1em;
 }
 .container-imgoing .col-container-3 .going-text h3{
-    margin-bottom: 0em;
-  font-size: 18px;
-    color: #3f5c63;
-    font-weight: 400;
-    text-align: left;
+	margin-bottom: 0em;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 400;
+	text-align: left;
 }
 
 .container-imgoing .col-container-3 .going-text p{
- margin-top: 0px;
-  max-width: 700px;
-  font-size: 16px;
-color: #3f5c63;
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 300;
-    margin-bottom: 1.5em;
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 16px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: 1.5em;
 
 }
 /* ==== end of my interest ==== */
@@ -1676,7 +1671,7 @@ footer {
 
 .footer-logo img {
 	width: 85px;
-  	height: 90px;
+	height: 90px;
 	margin-top: 3em;
 }
 
