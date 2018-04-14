@@ -1,159 +1,125 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta charset="keywords" content="Neighboring Health">
-    <meta charset="author"
-          content="Sandra Barcenas, Lea Isabel Cutillar, Conor Lipscomb, Sang Park, Sarina Proctor, Josh Roper">
-    <meta charset="viewport" content="width=device-width" intial-scale="1.0">
+  <meta charset="UTF-8">
+  <meta charset="keywords" content="Neighboring Health">
+  <meta charset="author"
+  content="Sandra Barcenas, Lea Isabel Cutillar, Conor Lipscomb, Sang Park, Sarina Proctor, Josh Roper">
+  <meta charset="viewport" content="width=device-width" intial-scale="1.0">
 
-    <link rel="stylesheet" href="../../stylesheets/base.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../stylesheets/base.css">
+  <script src="../../js/account.js"></script>
 
-    <title>My Profile</title>
+  <title>My Profile</title>
 </head>
 
 <body>
-<div class="container-signup">
+  <div class="container-signup">
     <div class="header">
-        <a href="../index.html" class="logo">Neighboring Health</a>
-        <!--<ul class="nav">
-        <li><a href="index.html" class="active">Introduction</a></li>
-        <li><a href="howitworks.html">How it works</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="login.html">Log In</a></li>
-        <li><a href="signup-create_account.html" class="signup">Sign up</a></li>
+      <a href="../index.html" class="logo">Neighboring Health</a>
+      <!--<ul class="nav">
+      <li><a href="index.html" class="active">Introduction</a></li>
+      <li><a href="howitworks.html">How it works</a></li>
+      <li><a href="locations.html">Locations</a></li>
+      <li><a href="login.html">Log In</a></li>
+      <li><a href="signup-create_account.html" class="signup">Sign up</a></li>
     </ul>-->
-        <ul class="nav">
-            <li><a href="../login/explore.html">Explore</a></li>
-            <li><a href="../login/account.html" class="active">Profile</a></li>
-            <li><a href="../index.html">Log Out</a></li>
-        </ul>
-
-        <!--<div class="dropdown-navigation">
-        <ul>
-        <li> <a href="yurtsinfo.html"><img src="b27fdfb4f3e2bc5bd38d21b93b25dead.png" width="45px" height="45px"></a>
-        <ul>
-        <li> <a href="index.html" class="active"><span>Introduction</span></a> </li>
-        <li> <a href="howitworks.html"><span>How it works</span></a> </li>
-        <li> <a href="locations.html"><span>Locations</span></a> </li>
-        <li> <a href="login.html"><span>Log In</span></a> </li>
-        <li> <a href="signup.html" class="signup"><span>Sign up</span></a></li>
+    <ul class="nav">
+      <li><a href="../login/explore.html">Explore</a></li>
+      <li><a href="../login/account.html" class="active">Profile</a></li>
+      <li><a href="../index.html">Log Out</a></li>
     </ul>
+
+    <!--<div class="dropdown-navigation">
+    <ul>
+    <li> <a href="yurtsinfo.html"><img src="b27fdfb4f3e2bc5bd38d21b93b25dead.png" width="45px" height="45px"></a>
+    <ul>
+    <li> <a href="index.html" class="active"><span>Introduction</span></a> </li>
+    <li> <a href="howitworks.html"><span>How it works</span></a> </li>
+    <li> <a href="locations.html"><span>Locations</span></a> </li>
+    <li> <a href="login.html"><span>Log In</span></a> </li>
+    <li> <a href="signup.html" class="signup"><span>Sign up</span></a></li>
+  </ul>
 </li>
 </ul>
 </div>-->
 
 
+</div>
+
+
+<!--<div class="signup-header">
+<h3>Create Your Account</h3>
+</div>-->
+
+
+<div class="parent">
+  <div class="left">
+    <div class="side-info">
+      <div class="profile-image"></div>
+      <h3>Josh is da illest</h3>
+      <a href="../login/interest.html">
+        <button>My Interests</button>
+      </a>
+      <a href="../login/events.html">
+        <button>I'm Going</button>
+      </a>
+      <a href="../login/account.html">
+        <button>My Profile</button>
+      </a>
     </div>
 
 
-    <!--<div class="signup-header">
-    <h3>Create Your Account</h3>
-    </div>-->
-
-
-    <div class="parent">
-        <div class="left">
-            <div class="side-info">
-                <div class="profile-image"></div>
-                <h3>Josh is da illest</h3>
-                <a href="../login/interest.html">
-                    <button>My Interests</button>
-                </a>
-                <a href="../login/events.html">
-                    <button>I'm Going</button>
-                </a>
-                <a href="../login/account.html">
-                    <button>My Profile</button>
-                </a>
-            </div>
-
-
-            <!--<table class="sidebar">
-            <tr>
-            <td><div class="lines-orange"></div></td>
-            <td><a href="#" onclick="toggle_visibility('foo');"<a href="signup-create_account.html">Create account</a></a></td>
-        </tr>
-        <tr>
-        <td><div class="lines"></div></td>
-        <td>Follow Interests</td>
-    </tr>
+    <!--<table class="sidebar">
     <tr>
-    <td><div class="lines"></div></td>
-    <td>Enter personal data</td>
-    </tr>
-    <tr>
-    <td><div class="lines"></div></td>
-    <td><a href="signup-findmeetup.html">Search for meetups</a></td>
-    </tr>
-    <tr>
-    <td><div class="lines"></div></td>
-    <td><a href="signup-mymeetups-real.html">My Meetups</a></td>
-    </tr>
-    <tr>
-    <td><div class="lines"></div></td>
-    <td>Not Submitted</td>
-    </tr>
-    </table>-->
-        </div>
-        <div class="left">
+    <td><div class="lines-orange"></div></td>
+    <td><a href="#" onclick="toggle_visibility('foo');"<a href="signup-create_account.html">Create account</a></a></td>
+  </tr>
+  <tr>
+  <td><div class="lines"></div></td>
+  <td>Follow Interests</td>
+</tr>
+<tr>
+<td><div class="lines"></div></td>
+<td>Enter personal data</td>
+</tr>
+<tr>
+<td><div class="lines"></div></td>
+<td><a href="signup-findmeetup.html">Search for meetups</a></td>
+</tr>
+<tr>
+<td><div class="lines"></div></td>
+<td><a href="signup-mymeetups-real.html">My Meetups</a></td>
+</tr>
+<tr>
+<td><div class="lines"></div></td>
+<td>Not Submitted</td>
+</tr>
+</table>-->
+</div>
+<div class="left">
 
-            <div class="container-my-account">
+  <div class="container-my-account">
 
-                <h4 class="head-doe">MY ACCOUNT</h4>
-                <p class="orange-underline">Here you can edit your settings, personal goals, etc</p>
+    <h4 class="head-doe">MY ACCOUNT</h4>
+    <p class="orange-underline">Here you can edit your settings, personal goals, etc</p>
 
-                <h5>Personal goals</h5>
-            </div>
-        </div>
-
-
-    </div>
+    <h5>Personal goals</h5>
+    <section class="profileGoalQuestion1"></section>
+    <section class="profileGoalQuestion2"></section>
+    <section class="profileGoalQuestion3"></section>
+  </div>
+</div>
 
 
 </div>
-<footer>
-    <div class="wrapper">
-        <div class="wrapper-links2">
-            <p>Follow Us</p>
-            <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
-            <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
-            <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
-        </div>
-        <div class="wrapper-links2">
-            <p>What is Neighboring Health?</p>
-            <ul>
-                <li><a href="#">Introduction</a></li>
-                <li><a href="#">How it Works</a></li>
-                <li><a href="#">Locations</a></li>
-            </ul>
-        </div>
-        <div class="wrapper-links2">
-            <p>Account</p>
-            <ul>
-                <li><a href="#">Create an account</a></li>
-                <li><a href="#">My Account</a></li>
-                <li><a href="#">My Interests</a></li>
-                <li><a href="#">I'm Going</a></li>
-            </ul>
-        </div>
-        <div class="wrapper-links2">
-            <p>Resources</p>
-            <ul>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Exercises</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
-        <div class="footer-logo">
-            <a href="index.html"><img src="images/Asset1.png" alt="Neighboring Health logo"></a>
-        </div>
-    </div>
-    <div class="bottom-footer">
-        <p>Copyright UX Research and Design Group Neighboring Health | This site is intended for class use only.</p>
-    </div>
-</footer>
 
+
+</div>
 
 </body>
 </html>
