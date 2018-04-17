@@ -1,0 +1,1746 @@
+/*
+Author: Sandra Barcenas, Lea Isabel Cutillar, Sang Park, Sarina Proctor, Josh Roper
+Date: 09.12.2017
+Purpose: Used to edit home.html
+Version: 0.0.1
+*/
+
+/* ====  Import Font Families ==== */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue-Regular.eot'); /* IE9 Compat Modes */
+	src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('BebasNeue-Regular.woff') format('woff'), /* Modern Browsers */
+	url('BebasNeue-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('BebasNeue-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* ==== End of Import Font Families ==== */
+
+body {
+	width: 100%;
+	font-size: 12px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	/* line-height: 1.65 */
+}
+
+/*========== Beginning of Typography =========*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-size: 6.854em;
+	line-height: 7rem;
+	margin: 0;
+	font-weight: 700;
+	color: #3F5C63;
+}
+
+h2 {
+	font-size: 4.236em;
+	line-height: 4.5rem;
+	margin: 0;
+	font-weight: 100;
+	color: #3F5C63;
+}
+
+h3 {
+	font-size: 2.618em;
+	line-height: 3rem;
+	margin: 0;
+	font-weight: 100;
+	color: #3F5C63;
+}
+
+h4 {
+	font-size: 1.618em;
+	line-height: 2rem;
+	margin: 0;
+	font-weight: 100;
+	color: #3F5C63;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: #3F5C63;
+}
+
+/*========== Ending of Typography =========*/
+
+/*========== Beginning of Buttons =========*/
+
+.btn-primary-btn {
+	background-color: #3F5C63;
+	color: #F5F6FA;
+	display: block;
+	box-sizing: border;
+	width: 10em;
+	padding: 1em 2em;
+	border-radius: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-primary-btn:hover{
+	background-color: #66939E;
+}
+
+.btn-secondary-btn {
+	border: 2px solid #F35B22;
+	background-color: #fff;
+	color: #F35B22;
+	display: block;
+	box-sizing: border;
+	width: 10em;
+	padding: 1em 2em;
+	border-radius: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-secondary-btn:hover {
+	background-color: #F35B22;
+	color: #F5F6FA;
+}
+
+.btn-primary-btn-small {
+	background-color: #3F5C63;
+	color: #F5F6FA;
+	display: block;
+	box-sizing: border;
+	width: 10em;
+	padding: 0.5em 1em;
+	border-radius: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-primary-btn-small:hover{
+	background-color: #66939E;
+}
+
+/* ==== Sign Up Pages Buttons ==== */
+
+#basic-info .btn-primary-btn-main {
+	background-color: #3F5C63;
+	color: #F5F6FA;
+	display: block;
+	box-sizing: border;
+	padding: 1em 2em;
+	border-radius: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#basic-info .btn-primary-btn-main:hover{
+	background-color: #66939E;
+}
+
+.btn-primary-btn-next {
+	background-color: #3F5C63;
+	color: #F5F6FA;
+	display: block;
+	box-sizing: border;
+	width: 10em;
+	padding: 1em 2em;
+	margin-left: 1em;
+	border-radius: 0.3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-primary-btn-next:hover{
+	background-color: #66939E;
+}
+
+.signup-button-container {
+	width: 900px;
+	padding-left: 0.3em;
+	display: flex;
+	-webkit-flex: flex;
+
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+
+/* ==== End of Sign Up Pages Buttons ==== */
+
+/*========== Beginning of CTA - Call to action =========*/
+
+.container.fullwidth {
+	width: 100%;
+}
+
+.fullwidth .calltoaction {
+	margin: 0;
+	width: 100%;
+}
+
+.calltoaction {
+	display: block;
+	display: -webkit-block;
+
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.cta-container {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.calltoaction {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.calltoaction .cta-container {
+	display: table;
+	padding: 25px 25px;
+	width: 100%;
+	/*max-width: 1210px;*/
+}
+
+.cta-primary-btn {
+	width: 15%;
+	border: 2px solid #F35B22;
+	border-radius: 0.3em;
+	background-color: #fff;
+	color: #F35B22;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cta-primary-btn:hover {
+	padding: 0.5em;
+	background-color: #F35B22;
+	color: #F5F6FA;
+}
+
+.calltoaction .cta-primary-btn {
+	width: 15%;
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+	margin-right: 0;
+}
+
+.cta-text h3 {
+	color: #3F5C63;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1.4;
+	margin-top: 0;
+	letter-spacing: -.4px;
+}
+
+.cta-text p {
+	color: #66939E;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+/*========== Ending of CTA - Call to action =========*/
+
+/*==========Beginning of Header =========*/
+
+.logo {
+	text-indent: -9999px;
+	background: url("../images/Asset1.png") no-repeat 0 0 /contain transparent;
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin: 0;
+}
+
+.header {
+	background-color: #3f5c63;
+	display: flex;
+	display: -webkit-flex;
+
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+
+	align-items: center;
+	-webkit-align-items: center;
+
+	padding: 2em;
+	/*width: 100%;*/
+}
+
+/*========== Ending of Header =========*/
+
+/*========== Beginning of Navigation =========*/
+.sub-nav{
+	display: flex;
+	justify-content: flex-end;
+}
+/*
+.sub-nav-doe .sub-nav{
+margin: 0;
+padding: 0;
+
+display: flex;
+display: -webkit-flex;
+
+list-style-type: none;
+}
+
+.sub-nav-doe .sub-nav li{
+display: inline-block;
+display: -webkit-inline-block;
+}
+
+.sub-nav-doe .sub-nav li a{
+display: block;
+display: -webkit-block;
+color: #f5f6fa;
+letter-spacing: 2px;
+font-weight: 600;
+font-size: 11px;
+text-decoration: none;
+text-transform: uppercase;
+border-bottom: 2px solid transparent;
+margin-right: 8em;
+padding: 1em 1.5em;
+}*/
+.nav {
+	display: flex;
+	display: -webkit-flex;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	display: -webkit-flex;
+
+	list-style-type: none;
+}
+
+ul.nav li {
+	display: inline-block;
+	display: -webkit-inline-block;
+
+}
+
+.nav a {
+	display: block;
+	display: -webkit-block;
+	color: #f5f6fa;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	margin-right: 8em;
+	padding: 1em 1.5em;
+
+}
+
+.nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+/*
+li a:visited {
+text-decoration: none;
+color: #3269B0;
+}
+*/
+li a:hover {
+	color: #E47526;
+}
+
+li a:active {
+	border-bottom: 2px solid #f35b22;
+	padding-bottom: 0.5em;
+}
+
+a.signup:hover {
+	background-color: #f35b22;
+	color: #f5f6fa;
+}
+
+a.signup {
+	border: 2px solid #f35b22;
+	border-radius: 0.3em;
+	padding: 1em 1em;
+	margin: 0;
+
+}
+
+/*========== Ending of Navigation =========*/
+
+/*========== Beginning of Index page =========*/
+
+.index-works-section {
+	width: 100%;
+	height: auto;
+	padding: 2em;
+}
+
+.index-works-section h3 {
+	display: flex;
+	display:-webkit-flex;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.index-works-container {
+	width: 100%;
+	padding: 10px 25px;
+	display: flex;
+	display:-webkit-flex;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.index-works-info-container {
+	height: auto;
+	line-height: 1.65;
+	text-align: center;
+
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+
+}
+
+.index-works-section h3 {
+	text-align: center;
+}
+
+.index-works-icons {
+	background: url("../images/people.jpg") no-repeat 0 0 /contain transparent;
+}
+
+
+.banner {
+	background: url("../images/people.jpg") no-repeat 0 0 /contain transparent;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-text {
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-first-text {
+	display:flex;
+	flex-direction: column;
+	padding:70px;
+}
+
+.banner-text-items {
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	line-height: 1.65;
+}
+
+.title h2 {
+	color: #ffffff;
+}
+
+.title p {
+	color: #ffffff;
+}
+
+.first-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	align-items:center;
+
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
+
+	background-color: #F5F6FA;
+
+}
+
+.first-box {
+	max-width:100%;
+	width: 100%;
+
+	margin-right:0;
+
+}
+
+.first-info {
+	color: #1d4070;
+
+}
+
+.first-info img {
+	max-width:100%;
+	width: 45%;
+	height:30%;
+
+}
+
+
+.index-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+	background-color: #ffffff;
+}
+
+.index-box {
+	width: 330px;
+	height: 340px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 5em 5em 0 5em;
+}
+
+.title {
+
+	text-align:center;
+	font-weight:900;
+	font-size:25px;
+	padding-top:50px;
+	width:100%;
+	max-width:100%;
+}
+
+.index-info {
+	display:flex;
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+
+}
+
+.index-info img {
+	width: 50px;
+	height: 50px;
+	color: #3F5C63;
+}
+
+.index-description  {
+	text-align: center;
+	line-height: 2;
+	color: #3f5c63;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	padding-top: 20%;
+
+
+}
+
+.progress {
+	margin: 15em 0;
+	width:100px;
+	height:2px;
+	background-color:#E4752B;
+}
+
+.city-container {
+	background-color: #F5F6FA;
+
+
+}
+
+.locations-city-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+
+	justify-content:space-around;
+	-webkit-justify-content:space-around;
+}
+
+.city-box {
+	width: 500px;
+	height: 220px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.city-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center;
+
+}
+
+.city-info img {
+	width: 340px;
+	height: 220px;
+	border: 1px solid #000000;
+}
+
+.city-description  {
+	text-align: center;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #F5F6FA;
+	background-color: #F5F6FA;
+	padding-left: 1em;
+
+}
+
+/*========== Ending of Index Page =========*/
+
+/* ==== Beginning of Sign Up Pages ==== */
+
+/* ==== Sign Up Pages Layout ==== */
+
+.signup-layout-container {
+	display: flex;
+	display: -webkit-flex;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+
+	margin: 2em 0 2em 0;
+}
+
+.s-layout-left {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-basis: 30%;
+	-webkit-flex-basis: 30%;
+}
+
+.s-layout-right {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-basis: 70%;
+	-webkit-flex-basis: 70%;
+
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+
+/* ==== End of Sign Up Pages Layout ==== */
+
+/* ==== Sign Up Banner ==== */
+
+.signup-header-banner {
+	height: auto;
+	padding: 2em;
+}
+
+.signup-header-container {
+	display: flex;
+	display: -webkit-flex;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+.signup-header-title h3 {
+	text-align: center;
+}
+
+.signup-header-description p {
+	color: #1C4070;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* ==== End of Sign Up Banner ===== */
+
+/*========== Beginning of Sidebar =========*/
+
+.signup-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 24px;
+	padding-top: 3em;
+}
+
+.sidebar {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+	margin-left: 6em;
+}
+
+.sidebar td {
+	font-size: 15px;
+	color: #3f5c63;
+	padding-right: 1em;
+	padding-bottom: 2em;
+
+}
+
+.lines {
+	width: 2px;
+	height: 40px;
+	background: #3f5c63;
+}
+
+.lines-orange {
+	width: 2px;
+	height: 40px;
+	background: #f35b22;
+}
+
+.sidebar tr td a:first-child{
+	text-decoration: none;
+	color: #3f5c63;
+}
+/*========== Ending of Sidebar =========*/
+
+/* ==== start of login screen ==== */
+
+.ya-mama{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ya-mama .logo-fake{
+	width: 150px;
+	height: 180px;
+	background-color: black;
+	margin: 1em;
+	background: url(../images/Asset-2.png);
+	background-size: cover;
+}
+
+.ya-mama p{
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 500;
+	margin-bottom: 2.2em;
+}
+
+.parent-full{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8em;
+	margin-bottom: 8em;
+}
+.parent-full .middle{
+	width: 35%;
+}
+
+.middle .sign-up-doe{
+
+}
+
+.middle #sign-up button{
+	width:100%;
+	margin-top: 1.2em;
+	padding: .9em;
+	font-size: 20px;
+	background-color: #3f5c63;
+	color: white;
+}
+
+#sign-up p{
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	color: #3f5c63;
+}
+
+#sign-up p a{
+	text-decoration: none;
+	color: #f35b22;
+}
+
+#sign-up .sign-up-labels{
+	width: 100%;
+	font-size: 16px;
+	color: #3f5c63;
+}
+/* ==== end of login screen ==== */
+
+/*========== Beginning of Sign Up Pages =========*/
+
+/* ==== Sign Up - Create your account, Find a meetup, My meetups ==== */
+
+.container-signup .logo {
+	text-indent: -9999px;
+	background: url("../images/Asset-1.png") no-repeat 0 0 /contain transparent;
+	display: block;
+	width: 200px;
+	height: 100px;
+	margin: 0;
+}
+
+.container-signup .parent{
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+
+.container-signup .parent .right{
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+	margin-top: 0em;
+	margin-right: 0em;
+
+}
+/* ==== Sign Up - Create your account form ==== */
+
+.container-signup .container-reservation fieldset button {
+	width:100%;
+	margin-top: 2em;
+	padding: 1.3em;
+	font-size: 20px;
+	background-color: #3f5c63;
+	color: white;
+}
+
+.container-signup fieldset{
+	border: none;
+}
+
+.container-signup .container-reservation{
+	width: 60em;
+	margin:auto;
+	border: none;
+}
+
+#basic-info{
+	width: 100%;
+}
+#contact-form{
+	width: 100%;
+}
+
+.container-signup .form-labels{
+	justify-content: center;
+	font-size: 15px;
+	margin-left: .2em;
+	font-weight: 400;
+	color: #3f5c63;
+
+}
+
+.container-signup ::placeholder{
+	color: lightgrey;
+}
+.container-signup .container-reservation label {
+	text-align: center;
+	font-size: 18px;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="phone"],
+select
+{
+	margin-top: 1em;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1px solid #888;
+	width: 100%;
+	padding: .2em;
+	margin-bottom: 1em;
+	font-size: 15px;
+}
+
+#location-shiz {
+	font-size: 15px;
+	color: #3f5c63;
+}
+/* ==== End of Sign Up - Create your account Form ==== */
+
+/* ==== Sign Up - Find a meetup, My meetups ==== */
+/*
+.container-signup .right .container-mymeetups{
+background-color: aqua;
+width: 70em;
+height: 70em;
+display: flex;
+flex-direction: row;
+}
+.container-signup .container-mymeetups mmu-col-1{
+flex: 1;
+width: 60em;
+height: 60em;
+}
+.container-signup .container-mymeetups mmu-col-2{
+
+}
+.container-signup .container-mymeetups mmu-col-1 .mmu-images{
+width: 250px;
+height: 500px;
+background-color: black;
+}
+.container-signup .container-mymeetups mmu-col-2 p{
+font-size: 50px;
+}*/
+
+.container-meetup{
+
+}
+.col-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2em;
+	width: 900px;
+}
+.col-1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.col-2{
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding-left: 1em;
+}
+.col-2 p {
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 14px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: .5em;
+}
+.col-2 h3{
+	margin-bottom: .5em;
+	font-size: 20px;
+	color: #3f5c63;
+}
+.col-images-10, .col-images-11, .col-images-12, .col-images-13, .col-images-14, .col-images-15, .col-images-16, .col-images-17, .col-images-18{
+	background-color: black;
+	width: 250px;
+	height: 150px;
+}
+
+/*--- images for find meetup ---*/
+
+.col-images-10{
+	background: url(../images/meet-up-s.jpg);
+	background-size: cover;
+}
+
+.col-images-11{
+	background: url(../images/meetup-class.jpg);
+	background-size: cover;
+}
+
+.col-images-12{
+	background: url(../images/meetup-fit.jpg);
+	background-size: cover;
+}
+
+.col-images-13{
+	background: url(../images/meetup-camp.jpg);
+	background-size: cover;
+}
+
+.col-images-14{
+	background: url(../images/meetup-aha.jpg);
+	background-size: cover;
+}
+
+/*--- images for find meetup ---*/
+
+
+
+/*--- images for my meetup ---*/
+.col-images-15{
+	background: url(../images/meetup-class.jpg);
+	background-size: cover;
+}
+
+.col-images-16{
+	background: url(../images/meetup-fit.jpg);
+	background-size: cover;
+}
+
+.col-images-17{
+	background: url(../images/meetup-camp.jpg);
+	background-size: cover;
+}
+
+.col-images-18{
+	background: url(../images/meetup-aha.jpg);
+	background-size: cover;
+}
+/*--- images for my meetup ---*/
+
+.col-2 button{
+	width: 125px;
+	height: 30px;
+	background-color: #3f5c63;
+	color: white;
+	margin-right: 1.2em;
+	margin-bottom: 2em;
+}
+
+.btn-primary-btn-small {
+	display: inline-block;
+	-webkit-inline-block: inline-block;
+}
+
+
+.submit{
+	position: relative;
+	left: 10.3em;
+	top: .5em;
+	width: 250px;
+	height: 40px;
+	background-color: #3f5c63;
+	color: #F5F6FA;
+}
+
+#contact-form p{
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	color: #3f5c63;
+}
+
+#contact-form p a{
+	text-decoration: none;
+	color: #f35b22;
+}
+
+.container-meetup .col-headline{
+	color: #3f5c63;
+	font-size: 24px;
+	margin-bottom: .2em;
+}
+
+/* ==== End of Sign Up - Find a meetup, My meetups ==== */
+
+/* ==== Sign Up - Follow Interests Main Content ==== */
+
+.s-interests-right-grid {
+	display: flex;
+	display:-webkit-flex;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+	width: 900px;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.s-interests-right-container {
+	width: 250px;
+	height: 240px;
+	line-height: 1.65;
+	align-items: center;
+
+	padding-right: 4em;
+	padding-bottom: 4em;
+}
+
+.s-interests-image-1, .s-interests-image-2, .s-interests-image-3, .s-interests-image-4, .s-interests-image-5, .s-interests-image-6 {
+	width: 250px;
+	height: 150px;
+}
+
+.s-interests-image-1{
+	background: url("../images/bike.jpg");
+	background-size: cover;
+}
+
+.s-interests-image-2{
+	background: url("../images/tennis.jpg");
+	background-size: cover;
+}
+
+.s-interests-image-3{
+	background: url("../images/hiking.jpg");
+	background-size: cover;
+}
+
+.s-interests-image-4{
+	background: url("../images/gym.jpg");
+	background-size: cover;
+}
+
+.s-interests-image-5{
+	background: url("../images/cross-country.jpg");
+	background-size: cover;
+}
+
+.s-interests-image-6{
+	background: url("../images/Cooking.jpg");
+	background-size: cover;
+}
+
+.s-interests-description {
+	text-align: left;
+	line-height: 1.65;
+	color: #3F5C63;
+	border: 1px solid #ffffff;
+	background-color: #f5f6fa;
+	padding: 1em;
+}
+
+
+/* ==== End of Sign Up - Follow Interest Main Content ==== */
+
+/* ==== Beginning of Sign Up - Personal Data ==== */
+
+.s-data-right textarea {
+	width: 600px;
+	height: 100px;
+}
+
+
+.s-data-right .signup-button-container {
+	padding-top: 2em;
+}
+
+/* ==== End of Sign Up - Personal Data ==== */
+
+
+/* ==== End of Sign Up Pages ==== */
+
+
+/*========== Beginning of Explore page =========*/
+
+.banner-explore {
+	background: url("../images/action-adult-balance-163452.jpg") no-repeat 0 0 /contain transparent;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-text-explore {
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-ti-explore {
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	line-height: 1.65;
+}
+
+.banner-ti-explore h3, p {
+	color: #ffffff;
+}
+
+.explore-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 125px;
+	border-bottom: 1px solid #3f5c63;
+	border-top: 1px solid #3f5c63;
+	background-color: #ffffff;
+	padding-top: 2em;
+}
+
+.explore-links1 {
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em 14em 0 2em;
+	text-decoration: none;
+}
+
+.explore-links1 a {
+	text-decoration: none;
+	color: #3f5c63;
+}
+
+.explore-links2 {
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2em 0 0 14em;
+}
+
+
+.explore-links2 a {
+	text-decoration: none;
+	color: #3f5c63;
+}
+
+
+.explore-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+	background-color: #F5F6FA;
+	padding-bottom: 8em;
+}
+
+.explore-box {
+	width: 380px;
+	height: 240px;
+	line-height: 1.65;
+	align-items: center;
+	padding: 6em;
+}
+
+.explore-info {
+	color: #1d4070;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+	text-align: center;
+
+}
+
+.explore-info img {
+	width: 380px;
+	height: 240px;
+}
+
+.explore-description  {
+	text-align: left;
+	line-height: 1.65;
+	color: #3f5c63;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	padding-left: 1em;
+
+
+}
+
+/*========== Ending of Explore page =========*/
+
+/*========== Banner for Community Resources page =========*/
+.banner-cr {
+	background: url("../images/collaboration-colleagues-cooperation-398532.jpg") no-repeat 0 0 /contain transparent;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-text-cr {
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-ti-cr {
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	line-height: 1.65;
+}
+
+.banner-ti-cr h3, p {
+	color: #3f5c63;
+}
+
+/*========== Ending of Community resources page banner =========*/
+
+/* ==== start of my account ==== */
+.side-info{
+	display: flex;
+	flex-direction: column;
+	width:35em;
+	height: 100%;
+	align-items: center;
+	background-color: #f5f6fa;
+	margin-right: 5em;
+}
+.side-info .profile-image{
+	margin-top: 8em;
+	background-color: black;
+	width: 15em;
+	height: 15em;
+	border-radius: 10em;
+	background: url("../images/action-blue-diver-863988.jpg");
+}
+
+.side-info h3{
+	font-size: 22px;
+	color: #3f5c63;
+	font-weight: 500;
+	margin-bottom: 1.3em;
+}
+
+.side-info button{
+	width: 18em;
+	height: 3.2em;
+	background-color: #3f5c63;
+	color: white;
+	font-family: 'Nunito Sans', sans-serif;
+	margin-bottom: 1.3em;
+}
+
+.container-my-account{
+	display: flex;
+	flex-direction: column;
+	width: 70em;
+	height: 50em;
+	margin-top: 4.6em;
+}
+
+.head-doe{
+	font-size: 22px;
+	color: #3f5c63;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	margin-bottom: .5em;
+}
+
+.orange-underline{
+	font-size: 16px;
+	color: #3f5c63;
+	font-family: 'Nunito Sans', sans-serif;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-bottom: .3em;
+	border-bottom: 2px solid #f35b22;
+	max-width: 45em;
+}
+
+.container-my-account h5{
+	font-size: 20px;
+	color: #3f5c63;
+	font-weight: 400;
+	margin-top: 2.1em;
+	margin-bottom: .5em;
+}
+
+/* ==== end of my account ==== */
+
+
+/* ==== start of im going ==== */
+.container-imgoing{
+	max-width: 60em;
+	min-height: 60em;
+	margin-top: 4.6em;
+}
+.container-imgoing .col-container-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+.container-imgoing .col-1-2{
+	margin-right: 1em;
+	Width:50%;
+	display: flex;
+}
+.container-imgoing .col-2{
+	Width:100%;
+
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.container-imgoing .col-2 p {
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: 0em;
+}
+.container-imgoing .col-2 h3{
+	margin-bottom: .5em;
+	font-size: 20px;
+	color: #3f5c63;
+}
+.container-imgoing .col-1-2 .col-image-big{
+	background-color: black;
+	width: 300px;
+	height: 175px;
+}
+.container-imgoing .col-1-2 .col-image-big-2{
+	background-color: black;
+	width: 300px;
+	height: 175px;
+}
+/*--- images for im going ---*/
+.container-imgoing .col-1-2 .col-image-big:first-child{
+	background: url(../images/adventure-backpack-blue-mountains-868097.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-1-2 .col-image-big-2:first-child{
+	background: url(../images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
+	background-size: cover;
+}
+/*--- images for im going ---*/
+
+.container.fullwidth {
+	width: 100%;
+}
+
+.calltoaction-2 {
+	margin-top: 20em;
+	display: block;
+	display: -webkit-block;
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+
+}
+
+.calltoaction-2 .cta-container-2 {
+	display: table;
+	padding-bottom: 45px;
+	padding-top: 45px;
+	width: 100%;
+
+}
+
+.calltoaction-2 .cta-text-2 {
+	width: 100%;
+}
+.calltoaction-2 .cta-text-2 h3{
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 400;
+	margin-bottom: 0em;
+}
+.calltoaction-2 .cta-text-2 p{
+	margin-top: 0em;
+	font-size: 16px;
+	color: #3f5c63;
+	font-weight: 300;
+}
+
+.box-doe{
+	width: 30%;
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+	margin-right: 0;
+	text-align: right;
+}
+/*
+.calltoaction-2 .cta-primary-btn-2{
+width: 20%;
+position: relative;
+vertical-align: middle;
+display: table-cell;
+margin-right: 0;
+}*/
+
+.cta-primary-btn-2{
+	background-color: #f35b22;
+	border: 2px solid transparent;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: .5em;
+}
+
+.cta-primary-btn-2:hover {
+	background-color: #fff;
+	border: 2px solid #E4752B;
+	padding: 0.5em;
+	color: #E4752B;
+}
+
+
+/* ==== end of im going ==== */
+
+
+
+/* ==== start of my interest ==== */
+
+.container-imgoing{
+	max-width: 60em;
+	min-height: 60em;
+}
+.container-imgoing .col-container-3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+.container-imgoing .col-1-3{
+	background-color: #f5f6fa;
+	Width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid white;
+}
+
+.container-imgoing .col-2-3{
+	background-color:#f5f6fa;
+	Width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid white;
+}
+
+.container-imgoing .col-image-big-2{
+	background-color: black;
+	width: 350px;
+	height: 200px;
+}
+.container-imgoing .col-image-big-2-1{
+	background-color: black;
+	width: 350px;
+	height: 200px;
+}
+
+/* --- images for my interest --- */
+.container-imgoing .col-1-3 .col-image-big-2:first-child{
+	background: url(../images/hiking.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-2-3 .col-image-big-2:first-child{
+	background: url(../images/pool.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-image-big-2-1:first-child{
+	background: url(../images/bike.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-2-3 .col-image-big-2-1:first-child{
+	background: url(../images/gym.jpg);
+	background-size: cover;
+}
+/* --- images for my interest --- */
+.container-imgoing .col-container-3 .going-text{
+	width: 92%;
+	padding-bottom: 1em;
+}
+.container-imgoing .col-container-3 .going-text h3{
+	margin-bottom: 0em;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 400;
+	text-align: left;
+}
+
+.container-imgoing .col-container-3 .going-text p{
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 16px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+
+}
+/* ==== end of my interest ==== */
+
+
+
+
+
+
+
+/*========== Beginning of Footer=========*/
+
+footer {
+	background-color: #3F5C63;
+}
+
+.footer-info div {
+	width: 40%;
+	font-size: 13px;
+}
+
+.footer-info {
+	font-size: 11px;
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 90px 30px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.footer-about {
+	padding-right: 2em;
+}
+
+.footer-about p {
+	color: #F5F6FA;
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+#footer-copyright {
+	padding-top: 1em;
+}
+
+.footer-links {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.footer-links li {
+	list-style-type: none;
+}
+
+.footer-links ul {
+	padding: 0;
+}
+
+.footer-links li a {
+	color: #F5F6FA;
+	text-decoration: none;
+}
+
+.footer-links .fa-2x {
+	color: #F5F6FA;
+	padding-bottom: 0.2em;
+}
+
+.footer-links  li a:hover {
+	color: #F35B22;
+}
+
+.footer-links span {
+	display: block;
+	color: #F5F6FA;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+
+.footer-links div {
+	float: left;
+	padding-right: 8em;
+}
+
+.footer-info .footer-newsletter ul li a {
+	color: #F5F6FA;
+	font-size: 11px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	padding: 10px 0;
+	outline: none;
+	line-height: 1.9;
+}
+
+.footer-newsletter span {
+	display: block;
+	color: #F5F6FA;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+
+.footer-info .footer-newsletter {
+	width: 20%;
+}
+
+#footer-form input {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	width: 150px;
+	background-color: transparent;
+	color: #F5F6FA;
+	padding: 5px 10px;
+	border: 1px solid #F5F6FA;
+}
+
+#footer-form .cta {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #F5F6FA;
+	width: 60px;
+  height: 29px;
+	border: 1px solid #F35B22;
+	background-color: transparent;
+	padding: 0;
+}
+
+#footer-form .cta:hover{
+	background-color: #F35B22;
+	color: #F5F6FA;
+}
+
+/*========== Ending of Footer =========*/
