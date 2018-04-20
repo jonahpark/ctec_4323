@@ -5,17 +5,15 @@ Purpose: Used to edit home.html
 Version: 0.0.1
 */
 
-/* ====  Import Font Families ==== */
+/* ====  Import Font Families ==== */\
+@font-face{
+	font-family: 'Bebas Neue';
+	src: url('../font/BebasNeue-Regular.otf') format('opentype'),
+	     url('../font/BebasNeue-Regular.ttf') format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
 
-@font-face {
-	font-family: 'Bebas Neue';
-	src: url('BebasNeue-Regular.eot'); /* IE9 Compat Modes */
-	src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('BebasNeue-Regular.woff') format('woff'), /* Modern Browsers */
-	url('BebasNeue-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('BebasNeue-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 /* ==== End of Import Font Families ==== */
 
 body {
@@ -42,22 +40,24 @@ h1 {
 	margin: 0;
 	font-weight: 700;
 	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 4.236em;
 	line-height: 4.5rem;
 	margin: 0;
-	font-weight: 100;
 	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 2.618em;
 	line-height: 3rem;
 	margin: 0;
-	font-weight: 100;
+	font-weight: 200;
 	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -66,12 +66,7 @@ h4 {
 	margin: 0;
 	font-weight: 100;
 	color: #3F5C63;
-}
-
-p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
-	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 /*========== Ending of Typography =========*/
@@ -188,6 +183,7 @@ p {
 .fullwidth .calltoaction {
 	margin: 0;
 	width: 100%;
+	background-color: #66939E;
 }
 
 .calltoaction {
@@ -223,12 +219,13 @@ p {
 	width: 15%;
 	border: 2px solid #F35B22;
 	border-radius: 0.3em;
-	background-color: #fff;
-	color: #F35B22;
+	background-color: transparent;
+	color: #F5F6FA;
 	font-weight: 500;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .cta-primary-btn:hover {
@@ -245,22 +242,22 @@ p {
 	margin-right: 0;
 }
 
-.cta-text h3 {
-	color: #3F5C63;
+.cta-text h4 {
+	color: #F5F6FA;
 	text-transform: uppercase;
 	text-align: left;
-	font-size: 25px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 600;
 	margin: 0;
 	line-height: 1.4;
 	margin-top: 0;
-	letter-spacing: -.4px;
+	letter-spacing: 2px;
 }
 
 .cta-text p {
-	color: #66939E;
+	color: #F5F6FA;
 	margin: 0;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.4;
 }
 
@@ -454,38 +451,80 @@ a.signup {
 }
 
 
-.banner {
+/* ==== Index Banner ==== */
+
+.index-banner {
+	position: relative;
+	text-align: center;
+}
+
+.index-banner img {
 	background: url("../images/people.jpg") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.banner-text {
-	display: flex;
-	padding: 15% 0;
+.index-banner-info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.banner-first-text {
-	display:flex;
-	flex-direction: column;
-	padding:70px;
+.index-banner-info h1 {
+	color: #F5F6FA;
+	text-transform: uppercase;
 }
 
-.banner-text-items {
-	color: #ffffff;
-	margin: auto;
+.index-banner-info p {
+	color: #F5F6FA;
+
+}
+
+/* ==== End of Index Banner ==== */
+
+
+/* ==== Beginning of Index - Introduction section ==== */
+
+.intro-container {
+	background-color: #F5F6FA;
+	width: 100%;
+	height: auto;
+}
+
+.intro-content {
+	padding: 15em 10em;
 	text-align: center;
-	width: 80%;
-	line-height: 1.65;
 }
 
-.title h2 {
-	color: #ffffff;
+.intro-content h3 {
+	text-transform: uppercase;
+	font-weight: normal;
 }
 
-.title p {
-	color: #ffffff;
+.intro-content p {
+	font-size: 1.214em;
+	line-height: 1.5;
+	padding: 0 15px;
 }
+
+/* ==== End of Index - Introduction section ==== */
+
+/* ==== Beginning of Index - How It Works section ==== */
+
+.works-container {
+	width: 100%;
+	height: auto;
+}
+
+.works-content h2 {
+	text-align: center;
+	padding: 1em 0 0em;
+}
+
 
 .first-container {
 	display: flex;
@@ -503,26 +542,6 @@ a.signup {
 
 }
 
-.first-box {
-	max-width:100%;
-	width: 100%;
-
-	margin-right:0;
-
-}
-
-.first-info {
-	color: #1d4070;
-
-}
-
-.first-info img {
-	max-width:100%;
-	width: 45%;
-	height:30%;
-
-}
-
 
 .index-container {
 	display: flex;
@@ -535,21 +554,21 @@ a.signup {
 	-webkit-justify-content: center;
 
 	background-color: #ffffff;
+	height: auto;
+
 }
 
 .index-box {
 	width: 330px;
-	height: 340px;
+	height: auto;
 	line-height: 1.65;
 	align-items: center;
-	padding: 5em 5em 0 5em;
+	padding: 5em;
 }
 
 .title {
 
 	text-align:center;
-	font-weight:900;
-	font-size:25px;
 	padding-top:50px;
 	width:100%;
 	max-width:100%;
@@ -561,8 +580,6 @@ a.signup {
 
 	justify-content: center;
 	-webkit-justify-content: center;
-
-
 }
 
 .index-info img {
@@ -583,16 +600,23 @@ a.signup {
 }
 
 .progress {
-	margin: 15em 0;
+	margin: 13.55em 0;
 	width:100px;
 	height:2px;
 	background-color:#E4752B;
 }
 
+/* ==== End of Index - How It Works section ==== */
+
+/* ==== Beginning of Index - Locations section ==== */
+
+.locations-content h2 {
+	text-align: center;
+	padding: 1em 0 0em;
+}
+
 .city-container {
 	background-color: #F5F6FA;
-
-
 }
 
 .locations-city-container {
@@ -604,14 +628,14 @@ a.signup {
 
 	justify-content:space-around;
 	-webkit-justify-content:space-around;
+
+	padding: 5em 0 5em 0;
 }
 
 .city-box {
-	width: 500px;
-	height: 220px;
 	line-height: 1.65;
 	align-items: center;
-	padding: 6em;
+	padding: 0 0 4em;
 }
 
 .city-info {
@@ -624,8 +648,8 @@ a.signup {
 }
 
 .city-info img {
-	width: 340px;
-	height: 220px;
+	width: 350px;
+	height: 200px;
 	border: 1px solid #000000;
 }
 
@@ -1732,7 +1756,7 @@ footer {
 	text-transform: uppercase;
 	color: #F5F6FA;
 	width: 60px;
-  height: 29px;
+	height: 29px;
 	border: 1px solid #F35B22;
 	background-color: transparent;
 	padding: 0;
