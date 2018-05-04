@@ -267,10 +267,10 @@ h4 {
 
 .logo {
 	text-indent: -9999px;
-	background: url("../images/Asset1.png") no-repeat 0 0 /contain transparent;
+	background: url("../Images/Asset1.png") no-repeat 0 0 /contain transparent;
 	display: block;
-	width: 200px;
-	height: 100px;
+	width: 100px;
+	height: 60px;
 	margin: 0;
 }
 
@@ -279,19 +279,19 @@ h4 {
 	display: flex;
 	display: -webkit-flex;
 
-	justify-content: space-around;
-	-webkit-justify-content: space-around;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
 
 	align-items: center;
 	-webkit-align-items: center;
 
-	padding: 2em;
-	/*width: 100%;*/
+	padding: 1em 2em;
 }
 
 /*========== Ending of Header =========*/
 
 /*========== Beginning of Navigation =========*/
+
 .sub-nav{
 	display: flex;
 	justify-content: flex-end;
@@ -325,14 +325,14 @@ border-bottom: 2px solid transparent;
 margin-right: 8em;
 padding: 1em 1.5em;
 }*/
+
+
 .nav {
 	display: flex;
 	display: -webkit-flex;
 
-	justify-content: space-between;
+	justify-content: flex-end;
 	-webkit-justify-content: space-between;
-
-
 }
 
 .nav ul {
@@ -348,7 +348,6 @@ padding: 1em 1.5em;
 ul.nav li {
 	display: inline-block;
 	display: -webkit-inline-block;
-
 }
 
 .nav a {
@@ -357,27 +356,19 @@ ul.nav li {
 	color: #f5f6fa;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 11px;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;
-	margin-right: 8em;
+	margin-right: 4em;
 	padding: 1em 1.5em;
-
 }
 
-.nav li a{
-	color: white;
-	text-decoration: none;
-}
-
-
-/*
 li a:visited {
-text-decoration: none;
-color: #3269B0;
+	text-decoration: none;
+	color: #3269B0;
 }
-*/
+
 li a:hover {
 	color: #E47526;
 }
@@ -395,7 +386,7 @@ a.signup:hover {
 a.signup {
 	border: 2px solid #f35b22;
 	border-radius: 0.3em;
-	padding: 1em 1em;
+	line-height: 1em;
 	margin: 0;
 
 }
