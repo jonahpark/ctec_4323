@@ -528,13 +528,13 @@ a.signup {
 /* ==== Beginning of Index - How It Works section ==== */
 
 .works-container {
-	width: 100%;
 	height: auto;
+	padding: 5em 0 5em 0;
 }
 
 .works-content h2 {
 	text-align: center;
-	padding: 1em 0 0em;
+	padding-bottom: 1em;
 }
 
 
@@ -662,7 +662,6 @@ a.signup {
 .city-info img {
 	width: 350px;
 	height: 200px;
-	border: 1px solid #000000;
 }
 
 .city-description  {
@@ -679,28 +678,46 @@ a.signup {
 
 /* ==== Index - Additional section ==== */
 
-.index-add {
-	width: 100%;
+.index-add p {
+	color: #2A3845;
 }
 
-.index-add-left img {
+.index-add h3 {
+	margin: 0;
+}
+
+.index-add {
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.index-add.left {
+	width: 50%;
+	position: relative;
+	left: 80px;
+	padding: 8em 0 8em 0;
+}
+
+.index-add.left img {
+	width: 100%;
+	height: auto;
+}
+
+.index-add.right {
 	width: 50%;
 }
 
-.index-add-left img {
-	display: inline-block;
-	max-width: 100%;
-}
-
-.index-add-right {
-	position: absolute;
+.text-block {
+	position: relative;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	width: 80%;
-	height: 250px;
-	padding: 5% 10%;
+	width: 60%;
+	height: 300px;
+	padding: 4em;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
@@ -714,21 +731,62 @@ a.signup {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-	border: 1px solid #000;
-	text-align: center;
 }
 
-.index-add-right.block {
+.text-block.right {
+	left: 55px;
+	margin: 10.5em 0 10.5em 0;
+}
+
+.text-block.right {
 	-webkit-box-align: start;
 	-webkit-align-items: flex-start;
 	-ms-flex-align: start;
 	align-items: flex-start;
 }
 
-.index-add-right.block {
-	left: -50px;
+.text-block.right {
+	background-color: transparent;
+	text-align: left;
 }
 
+#add-indent {
+	background-color: #F35B22;
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	top: 24.4%;
+	left: 13.5%;
+	opacity: 0.5;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.list-style {
+	list-style-type: circle;
+	font-size: 14px;
+	color: #F35B22;
+}
+
+.list-style p {
+	font-size: 12px;
+}
+
+.indent-p {
+	margin-left: 4em;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+.index-add a {
+	color: #F35B22;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.index-add a:hover {
+	text-decoration: underline;
+}
 
 /* ==== Ending of Index-Additional section ==== */
 
@@ -1829,6 +1887,7 @@ footer {
 	border: 1px solid #F35B22;
 	background-color: transparent;
 	padding: 0;
+	margin-top: 1em;
 }
 
 #footer-form .cta:hover{
