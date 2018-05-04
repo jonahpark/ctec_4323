@@ -1265,6 +1265,17 @@ font-size: 50px;
 	height: 150px;
 }
 
+.s-interests-image {
+	width: 250px;
+	height: 150px;
+}
+
+.s-interests-image img {
+	background-size: cover;
+	width: 250px;
+	height: 150px;
+}
+
 .s-interests-image-1{
 	background: url("../images/bike.jpg");
 	background-size: cover;
