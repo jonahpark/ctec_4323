@@ -1606,6 +1606,80 @@ margin-right: 0;
 	margin-bottom: 1.5em;
 
 }
+
+
+.pro-info {
+	margin-top: 3em;
+	text-align: center;
+	width: 70%;
+	
+}
+
+
+.frequencies {
+	padding-bottom:4em;
+}
+
+
+.latest-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	padding-bottom: 2em;
+	padding-left: 2em;
+}
+
+.latest-box {
+	width: 280px;
+	height: 240px;
+}
+
+.latest-info {
+	color: #1d4070;
+}
+
+.latest-info h4 {
+	padding-top: 2em;
+}
+
+.latest-info img {
+	width: 240px;
+	height: 200px;
+	padding-top: 4em;
+}
+
+.latest-description  {
+	flex-direction: row;
+	padding-left: 3em;
+	padding-top: 10em;
+
+}
+
+.my-interests {
+	display: flex;
+	flex-direction: row;
+	/*margin-top: 2em;*/
+}
+
+.my-interests img {
+	width: 240px;
+	height: 200px;
+}
+
+.interest-info {
+	padding-top: 2em;
+	padding-left: 3em;
+}
+
+.goal-info {
+	margin-top: 3em;
+}
+
+.goal-info h3 {
+	text-decoration: underline;
+}
 /* ==== end of my interest ==== */
 
 
