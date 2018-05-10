@@ -303,18 +303,14 @@ p {
 .sub-nav-doe .sub-nav{
 margin: 0;
 padding: 0;
-
 display: flex;
 display: -webkit-flex;
-
 list-style-type: none;
 }
-
 .sub-nav-doe .sub-nav li{
 display: inline-block;
 display: -webkit-inline-block;
 }
-
 .sub-nav-doe .sub-nav li a{
 display: block;
 display: -webkit-block;
@@ -945,7 +941,6 @@ width: 60em;
 height: 60em;
 }
 .container-signup .container-mymeetups mmu-col-2{
-
 }
 .container-signup .container-mymeetups mmu-col-1 .mmu-images{
 width: 250px;
@@ -1329,370 +1324,6 @@ font-size: 50px;
 	background-color: #f5f6fa;
 	margin-right: 5em;
 }
-.side-info .profile-image{
-	margin-top: 8em;
-	background-color: black;
-	width: 15em;
-	height: 15em;
-	border-radius: 10em;
-	background: url("../images/action-blue-diver-863988.jpg");
-}
-
-.side-info h3{
-	font-size: 22px;
-	color: #3f5c63;
-	font-weight: 500;
-	margin-bottom: 1.3em;
-}
-
-.side-info button{
-	width: 18em;
-	height: 3.2em;
-	background-color: #3f5c63;
-	color: white;
-	font-family: 'Nunito Sans', sans-serif;
-	margin-bottom: 1.3em;
-}
-
-.container-my-account{
-	display: flex;
-	flex-direction: column;
-	width: 70em;
-	height: 50em;
-	margin-top: 4.6em;
-}
-
-.head-doe{
-	font-size: 22px;
-	color: #3f5c63;
-	font-family: 'Nunito Sans', sans-serif;
-	font-weight: 400;
-	margin-bottom: .5em;
-}
-
-.orange-underline{
-	font-size: 16px;
-	color: #3f5c63;
-	font-family: 'Nunito Sans', sans-serif;
-	margin-top: 0em;
-	margin-bottom: 0em;
-	padding-bottom: .3em;
-	border-bottom: 2px solid #f35b22;
-	max-width: 45em;
-}
-
-.container-my-account h5{
-	font-size: 20px;
-	color: #3f5c63;
-	font-weight: 400;
-	margin-top: 2.1em;
-	margin-bottom: .5em;
-}
-
-/* ==== end of my account ==== */
-
-
-/* ==== start of im going ==== */
-.container-imgoing{
-	max-width: 60em;
-	min-height: 60em;
-	margin-top: 4.6em;
-}
-.container-imgoing .col-container-2{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 1em;
-}
-.container-imgoing .col-1-2{
-	margin-right: 1em;
-	Width:50%;
-	display: flex;
-}
-.container-imgoing .col-2{
-	Width:100%;
-
-	align-items: flex-start;
-	justify-content: flex-start;
-}
-.container-imgoing .col-2 p {
-	margin-top: 0px;
-	max-width: 700px;
-	font-size: 18px;
-	color: #3f5c63;
-	font-weight: 300;
-	margin-bottom: 0em;
-}
-.container-imgoing .col-2 h3{
-	margin-bottom: .5em;
-	font-size: 20px;
-	color: #3f5c63;
-}
-.container-imgoing .col-1-2 .col-image-big{
-	background-color: black;
-	width: 300px;
-	height: 175px;
-}
-.container-imgoing .col-1-2 .col-image-big-2{
-	background-color: black;
-	width: 300px;
-	height: 175px;
-}
-/*--- images for im going ---*/
-.container-imgoing .col-1-2 .col-image-big:first-child{
-	background: url(../images/adventure-backpack-blue-mountains-868097.jpg);
-	background-size: cover;
-}
-.container-imgoing .col-1-2 .col-image-big-2:first-child{
-	background: url(../images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
-	background-size: cover;
-}
-/*--- images for im going ---*/
-
-.container.fullwidth {
-	width: 100%;
-}
-
-.calltoaction-2 {
-	margin-top: 20em;
-	display: block;
-	display: -webkit-block;
-	position: relative;
-	width: 100%;
-	background-color: #ffffff;
-
-}
-
-.calltoaction-2 .cta-container-2 {
-	display: table;
-	padding-bottom: 45px;
-	padding-top: 45px;
-	width: 100%;
-
-}
-
-.calltoaction-2 .cta-text-2 {
-	width: 100%;
-}
-.calltoaction-2 .cta-text-2 h3{
-	font-size: 18px;
-	color: #3f5c63;
-	font-weight: 400;
-	margin-bottom: 0em;
-}
-.calltoaction-2 .cta-text-2 p{
-	margin-top: 0em;
-	font-size: 16px;
-	color: #3f5c63;
-	font-weight: 300;
-}
-
-.box-doe{
-	width: 30%;
-	position: relative;
-	vertical-align: middle;
-	display: table-cell;
-	margin-right: 0;
-	text-align: right;
-}
-/*
-.calltoaction-2 .cta-primary-btn-2{
-width: 20%;
-position: relative;
-vertical-align: middle;
-display: table-cell;
-margin-right: 0;
-}*/
-
-.cta-primary-btn-2{
-	background-color: #f35b22;
-	border: 2px solid transparent;
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	padding: .5em;
-}
-
-.cta-primary-btn-2:hover {
-	background-color: #fff;
-	border: 2px solid #E4752B;
-	padding: 0.5em;
-	color: #E4752B;
-}
-
-
-/* ==== end of im going ==== */
-
-
-
-/* ==== start of my interest ==== */
-
-.container-imgoing{
-	max-width: 60em;
-	min-height: 60em;
-}
-.container-imgoing .col-container-3{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 1em;
-}
-.container-imgoing .col-1-3{
-	background-color: #f5f6fa;
-	Width:50%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border: 5px solid white;
-}
-
-.container-imgoing .col-2-3{
-	background-color:#f5f6fa;
-	Width:50%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border: 5px solid white;
-}
-
-.container-imgoing .col-image-big-2{
-	background-color: black;
-	width: 350px;
-	height: 200px;
-}
-.container-imgoing .col-image-big-2-1{
-	background-color: black;
-	width: 350px;
-	height: 200px;
-}
-
-/* --- images for my interest --- */
-.container-imgoing .col-1-3 .col-image-big-2:first-child{
-	background: url(../images/hiking.jpg);
-	background-size: cover;
-}
-.container-imgoing .col-2-3 .col-image-big-2:first-child{
-	background: url(../images/pool.jpg);
-	background-size: cover;
-}
-.container-imgoing .col-image-big-2-1:first-child{
-	background: url(../images/bike.jpg);
-	background-size: cover;
-}
-.container-imgoing .col-2-3 .col-image-big-2-1:first-child{
-	background: url(../images/gym.jpg);
-	background-size: cover;
-}
-/* --- images for my interest --- */
-.container-imgoing .col-container-3 .going-text{
-	width: 92%;
-	padding-bottom: 1em;
-}
-.container-imgoing .col-container-3 .going-text h3{
-	margin-bottom: 0em;
-	font-size: 18px;
-	color: #3f5c63;
-	font-weight: 400;
-	text-align: left;
-}
-
-.container-imgoing .col-container-3 .going-text p{
-	margin-top: 0px;
-	max-width: 700px;
-	font-size: 16px;
-	color: #3f5c63;
-	font-weight: 300;
-	margin-bottom: 1.5em;
-
-}
-
-
-.pro-info {
-	margin-top: 3em;
-	text-align: center;
-	width: 70%;
-	
-}
-
-
-.frequencies {
-	padding-bottom:4em;
-}
-
-
-.latest-container {
-	display: flex;
-	display:-webkit-flex;
-
-	flex-direction: row;
-	-webkit-flex-direction: row;
-	padding-bottom: 2em;
-	padding-left: 2em;
-}
-
-.latest-box {
-	width: 280px;
-	height: 240px;
-}
-
-.latest-info {
-	color: #1d4070;
-}
-
-.latest-info h4 {
-	padding-top: 2em;
-}
-
-.latest-info img {
-	width: 240px;
-	height: 200px;
-	padding-top: 4em;
-}
-
-.latest-description  {
-	flex-direction: row;
-	padding-left: 3em;
-	padding-top: 10em;
-
-}
-
-.my-interests {
-	display: flex;
-	flex-direction: row;
-	/*margin-top: 2em;*/
-}
-
-.my-interests img {
-	width: 240px;
-	height: 200px;
-}
-
-.interest-info {
-	padding-top: 2em;
-	padding-left: 3em;
-}
-
-.goal-info {
-	margin-top: 3em;
-}
-
-.goal-info h3 {
-	text-decoration: underline;
-}
-/* ==== end of my interest ==== */
-
-
-/* ==== start of my account ==== */ /* -----BEGINNING OF SANDRA'S TWEAKS-----*/
-.side-info{
-	display: flex;
-	flex-direction: column;
-	width:35em;
-	height: 100%;
-	align-items: center;
-	background-color: #f5f6fa;
-	margin-right: 5em;
-}
 
 .col-3-3-add {
 	margin-top: 2em;
@@ -1941,7 +1572,366 @@ margin-right: 0;
 	padding-left: 12em;
 	width: 50%;
 }
-/* ==== end of my account ==== */  /* -----ENDING OF SANDRA'S TWEAKS-----*/
+/* ==== end of my account ==== */
+
+
+/* ==== start of im going ==== */
+.container-imgoing{
+	max-width: 60em;
+	min-height: 60em;
+	margin-top: 4.6em;
+}
+
+.container-imgoing-meetup{
+	max-width: 100%;
+	margin-top: 2em;
+}
+
+.container-imgoing .col-container-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+.container-imgoing .col-1-2{
+	margin-right: 1em;
+	Width:50%;
+	display: flex;
+}
+.container-imgoing .col-2{
+	Width:100%;
+
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.container-imgoing .col-2 p {
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: 0em;
+}
+.container-imgoing .col-2 h3{
+	margin-bottom: .5em;
+	font-size: 20px;
+	color: #3f5c63;
+}
+.container-imgoing .col-1-2 .col-image-big{
+	background-color: black;
+	width: 300px;
+	height: 175px;
+}
+.container-imgoing .col-1-2 .col-image-big-2{
+	background-color: black;
+	width: 300px;
+	height: 175px;
+}
+/*--- images for im going ---*/
+.container-imgoing .col-1-2 .col-image-big:first-child{
+	background: url(../images/adventure-backpack-blue-mountains-868097.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-1-2 .col-image-big-2:first-child{
+	background: url(../images/bicycle-tour-bicycles-bicyclists-17729.jpg)    ;
+	background-size: cover;
+}
+/*--- images for im going ---*/
+
+.container.fullwidth {
+	width: 100%;
+}
+
+.calltoaction-2 {
+	margin-top: 20em;
+	display: block;
+	display: -webkit-block;
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+
+}
+
+.calltoaction-2 .cta-container-2 {
+	display: table;
+	padding-bottom: 45px;
+	padding-top: 45px;
+	width: 100%;
+
+}
+
+.calltoaction-2 .cta-text-2 {
+	width: 100%;
+}
+.calltoaction-2 .cta-text-2 h3{
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 400;
+	margin-bottom: 0em;
+}
+.calltoaction-2 .cta-text-2 p{
+	margin-top: 0em;
+	font-size: 16px;
+	color: #3f5c63;
+	font-weight: 300;
+}
+
+.box-doe{
+	width: 30%;
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+	margin-right: 0;
+	text-align: right;
+}
+/*
+.calltoaction-2 .cta-primary-btn-2{
+width: 20%;
+position: relative;
+vertical-align: middle;
+display: table-cell;
+margin-right: 0;
+}*/
+
+.cta-primary-btn-2{
+	background-color: #f35b22;
+	border: 2px solid transparent;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: .5em;
+}
+
+.cta-primary-btn-2:hover {
+	background-color: #fff;
+	border: 2px solid #E4752B;
+	padding: 0.5em;
+	color: #E4752B;
+}
+
+
+/* ==== end of im going ==== */
+
+
+
+/* ==== start of my interest ==== */
+
+.container-imgoing{
+	max-width: 60em;
+	min-height: 60em;
+}
+.container-imgoing .col-container-3{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+.container-imgoing-meetup .col-container-3-host{
+	display: flex;
+	flex-direction: row;
+	align-items:stretch;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+.container-imgoing .col-1-3{
+	background-color: #f5f6fa;
+	Width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid white;
+}
+
+.container-imgoing .col-2-3{
+	background-color:#f5f6fa;
+	Width:50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid white;
+}
+
+.container-imgoing-meetup .col-container-3{
+	display: flex;
+	flex-direction: row;
+	align-items:stretch;
+	
+
+}
+
+.container-imgoing-meetups .col-container-3{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 100%;
+	max-width: 100%;
+	
+
+}
+
+.container-imgoing-meetup .col-3-3{
+	background-color:#f5f6fa;
+	Width:60%;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	border: 5px solid #f5f6fa;
+
+}
+
+.container-imgoing-meetups .col-3-3{
+	background-color:#f5f6fa;
+	Width:55%;
+	height:300px;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	border: 5px solid white;
+
+}
+
+
+
+
+
+.container-imgoing-meetup .col-3-3-host{
+	background-color:#f5f6fa;
+	Width:60%;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	border: 5px solid white;
+
+}
+
+.container-imgoing-meetup .col-3-3-host-comment{
+	background-color:#f5f6fa;
+	Width:55%;
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	margin-left:5em;
+	
+	border: 5px solid white;
+
+}
+
+.container-imgoing-meetup .col-3-3-add{
+	background-color:#ffffff;
+	Width:40%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	border: 5px solid white;
+}
+
+.container-imgoing-meetups .col-3-3-add{
+	background-color:#ffffff;
+	Width:40%;
+	border: 5px solid white;
+}
+
+.container-imgoing-meetup .col-3-3-attend{
+	Width:50%;
+	display: flex;
+	flex-direction:row;
+	align-items:baseline;
+	
+	
+}
+
+
+.container-imgoing-meetup .col-3-3-add-attend{
+	background-color:#ffffff;
+	Width:50%;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	border: 5px solid white;
+}
+
+.container-imgoing .col-image-big-2{
+	background-color: black;
+	width: 350px;
+	height: 200px;
+}
+.container-imgoing .col-image-big-2-1{
+	background-color: black;
+	width: 350px;
+	height: 200px;
+}
+
+.container-imgoing-meetup .col-image-big-2-1{
+	display: flex;
+	alignment-baseline: baseline;
+	background-color: black;
+	width: 40%;
+	height: 340px;
+}
+
+
+
+/* --- images for my interest --- */
+.container-imgoing .col-1-3 .col-image-big-2:first-child{
+	background: url(../images/hiking.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-2-3 .col-image-big-2:first-child{
+	background: url(../images/pool.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-image-big-2-1:first-child{
+	background: url(../images/bike.jpg);
+	background-size: cover;
+}
+.container-imgoing .col-2-3 .col-image-big-2-1:first-child{
+	background: url(../images/gym.jpg);
+	background-size: cover;
+}
+/* --- images for my interest --- */
+.container-imgoing .col-container-3 .going-text{
+	width: 92%;
+	padding-bottom: 1em;
+}
+.container-imgoing-meetup .col-container-3 .going-text{
+	width: 100%;
+	
+}
+
+.container-imgoing-meetups .col-container-3 .going-text{
+	width: 30%;
+	
+}
+
+.container-imgoing-meetups .col-container-3 .going-text-two{
+	width: 60%;
+	margin-left:3em;
+	
+}
+.container-imgoing .col-container-3 .going-text h3{
+	margin-bottom: 0em;
+	font-size: 18px;
+	color: #3f5c63;
+	font-weight: 400;
+	text-align: left;
+}
+
+.container-imgoing .col-container-3 .going-text p{
+	margin-top: 0px;
+	max-width: 700px;
+	font-size: 16px;
+	color: #3f5c63;
+	font-weight: 300;
+	margin-bottom: 1.5em;
+
+}
+/* ==== end of my interest ==== */
+
+
 
 
 
