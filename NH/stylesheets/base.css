@@ -5,17 +5,15 @@ Purpose: Used to edit home.html
 Version: 0.0.1
 */
 
-/* ====  Import Font Families ==== */
+/* ====  Import Font Families ==== */\
+@font-face{
+	font-family: 'Bebas Neue';
+	src: url('../font/BebasNeue-Regular.otf') format('opentype'),
+	url('../font/BebasNeue-Regular.ttf') format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
 
-@font-face {
-	font-family: 'Bebas Neue';
-	src: url('BebasNeue-Regular.eot'); /* IE9 Compat Modes */
-	src: url('BebasNeue-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('BebasNeue-Regular.woff') format('woff'), /* Modern Browsers */
-	url('BebasNeue-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('BebasNeue-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 /* ==== End of Import Font Families ==== */
 
 body {
@@ -42,22 +40,24 @@ h1 {
 	margin: 0;
 	font-weight: 700;
 	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 4.236em;
 	line-height: 4.5rem;
 	margin: 0;
-	font-weight: 100;
 	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 2.618em;
 	line-height: 3rem;
 	margin: 0;
-	font-weight: 100;
+	font-weight: 200;
 	color: #3F5C63;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -65,12 +65,6 @@ h4 {
 	line-height: 2rem;
 	margin: 0;
 	font-weight: 100;
-	color: #3F5C63;
-}
-
-p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
 	color: #3F5C63;
 }
 
@@ -131,6 +125,25 @@ p {
 	background-color: #66939E;
 }
 
+.btn-primary-btn-large {
+	width: 40%;
+	padding: 1em;
+	border-radius: 0.3em;
+	background-color: #3F5C63;
+	color: #F5F6FA;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.btn-primary-btn-large:hover {
+	background-color: #66939E;
+	color: #F5F6FA;
+}
+
+
 /* ==== Sign Up Pages Buttons ==== */
 
 #basic-info .btn-primary-btn-main {
@@ -188,6 +201,7 @@ p {
 .fullwidth .calltoaction {
 	margin: 0;
 	width: 100%;
+	background-color: #66939E;
 }
 
 .calltoaction {
@@ -223,12 +237,13 @@ p {
 	width: 15%;
 	border: 2px solid #F35B22;
 	border-radius: 0.3em;
-	background-color: #fff;
-	color: #F35B22;
+	background-color: transparent;
+	color: #F5F6FA;
 	font-weight: 500;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .cta-primary-btn:hover {
@@ -245,22 +260,22 @@ p {
 	margin-right: 0;
 }
 
-.cta-text h3 {
-	color: #3F5C63;
+.cta-text h4 {
+	color: #F5F6FA;
 	text-transform: uppercase;
 	text-align: left;
-	font-size: 25px;
-	font-weight: 400;
+	font-size: 20px;
+	font-weight: 600;
 	margin: 0;
 	line-height: 1.4;
 	margin-top: 0;
-	letter-spacing: -.4px;
+	letter-spacing: 2px;
 }
 
 .cta-text p {
-	color: #66939E;
+	color: #F5F6FA;
 	margin: 0;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.4;
 }
 
@@ -270,10 +285,10 @@ p {
 
 .logo {
 	text-indent: -9999px;
-	background: url("../images/Asset1.png") no-repeat 0 0 /contain transparent;
+	background: url("../Images/Asset1.png") no-repeat 0 0 /contain transparent;
 	display: block;
-	width: 200px;
-	height: 100px;
+	width: 100px;
+	height: 60px;
 	margin: 0;
 }
 
@@ -282,19 +297,19 @@ p {
 	display: flex;
 	display: -webkit-flex;
 
-	justify-content: space-around;
-	-webkit-justify-content: space-around;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
 
 	align-items: center;
 	-webkit-align-items: center;
 
-	padding: 2em;
-	/*width: 100%;*/
+	padding: 1em 2em;
 }
 
 /*========== Ending of Header =========*/
 
 /*========== Beginning of Navigation =========*/
+
 .sub-nav{
 	display: flex;
 	justify-content: flex-end;
@@ -328,14 +343,14 @@ border-bottom: 2px solid transparent;
 margin-right: 8em;
 padding: 1em 1.5em;
 }*/
+
+
 .nav {
 	display: flex;
 	display: -webkit-flex;
 
-	justify-content: space-between;
+	justify-content: flex-end;
 	-webkit-justify-content: space-between;
-
-
 }
 
 .nav ul {
@@ -351,7 +366,6 @@ padding: 1em 1.5em;
 ul.nav li {
 	display: inline-block;
 	display: -webkit-inline-block;
-
 }
 
 .nav a {
@@ -360,27 +374,19 @@ ul.nav li {
 	color: #f5f6fa;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 11px;
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom: 2px solid transparent;
-	margin-right: 8em;
+	margin-right: 4em;
 	padding: 1em 1.5em;
-
 }
 
-.nav li a{
-	color: white;
-	text-decoration: none;
-}
-
-
-/*
 li a:visited {
-text-decoration: none;
-color: #3269B0;
+	text-decoration: none;
+	color: #3269B0;
 }
-*/
+
 li a:hover {
 	color: #E47526;
 }
@@ -398,7 +404,7 @@ a.signup:hover {
 a.signup {
 	border: 2px solid #f35b22;
 	border-radius: 0.3em;
-	padding: 1em 1em;
+	line-height: 1em;
 	margin: 0;
 
 }
@@ -454,38 +460,88 @@ a.signup {
 }
 
 
-.banner {
+/* ==== Index Banner ==== */
+
+.index-banner {
+	position: relative;
+	text-align: center;
+}
+
+.index-banner img {
 	background: url("../images/people.jpg") no-repeat 0 0 /contain transparent;
 	background-size: cover;
 	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.banner-text {
-	display: flex;
-	padding: 15% 0;
+.index-banner-info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.banner-first-text {
-	display:flex;
-	flex-direction: column;
-	padding:70px;
+.index-banner-info h1 {
+	color: #F5F6FA;
+	text-transform: uppercase;
 }
 
-.banner-text-items {
-	color: #ffffff;
-	margin: auto;
+
+/* ==== End of Index Banner ==== */
+
+
+/* ==== Beginning of Index - Introduction section ==== */
+
+.intro-container {
+	background-color: #F5F6FA;
+	width: 100%;
+	height: auto;
+}
+
+.intro-content {
+	padding: 15em 10em;
 	text-align: center;
-	width: 80%;
-	line-height: 1.65;
 }
 
-.title h2 {
-	color: #ffffff;
+#indent-line {
+	background-color: #F35B22;
+	width: 100px;
+	height: 2px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	opacity: 0.5;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 }
 
-.title p {
-	color: #ffffff;
+.intro-content h3 {
+	text-transform: uppercase;
+	font-weight: normal;
 }
+
+.intro-content p {
+	font-size: 1.214em;
+	line-height: 1.5;
+	padding: 0 15px;
+}
+
+/* ==== End of Index - Introduction section ==== */
+
+/* ==== Beginning of Index - How It Works section ==== */
+
+.works-container {
+	height: auto;
+	padding: 5em 0 5em 0;
+}
+
+.works-content h2 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
 
 .first-container {
 	display: flex;
@@ -503,26 +559,6 @@ a.signup {
 
 }
 
-.first-box {
-	max-width:100%;
-	width: 100%;
-
-	margin-right:0;
-
-}
-
-.first-info {
-	color: #1d4070;
-
-}
-
-.first-info img {
-	max-width:100%;
-	width: 45%;
-	height:30%;
-
-}
-
 
 .index-container {
 	display: flex;
@@ -535,21 +571,21 @@ a.signup {
 	-webkit-justify-content: center;
 
 	background-color: #ffffff;
+	height: auto;
+
 }
 
 .index-box {
 	width: 330px;
-	height: 340px;
+	height: auto;
 	line-height: 1.65;
 	align-items: center;
-	padding: 5em 5em 0 5em;
+	padding: 5em;
 }
 
 .title {
 
 	text-align:center;
-	font-weight:900;
-	font-size:25px;
 	padding-top:50px;
 	width:100%;
 	max-width:100%;
@@ -561,8 +597,6 @@ a.signup {
 
 	justify-content: center;
 	-webkit-justify-content: center;
-
-
 }
 
 .index-info img {
@@ -583,16 +617,23 @@ a.signup {
 }
 
 .progress {
-	margin: 15em 0;
+	margin: 13.55em 0;
 	width:100px;
 	height:2px;
 	background-color:#E4752B;
 }
 
+/* ==== End of Index - How It Works section ==== */
+
+/* ==== Beginning of Index - Locations section ==== */
+
+.locations-content h2 {
+	text-align: center;
+	padding: 1em 0 0em;
+}
+
 .city-container {
 	background-color: #F5F6FA;
-
-
 }
 
 .locations-city-container {
@@ -604,14 +645,14 @@ a.signup {
 
 	justify-content:space-around;
 	-webkit-justify-content:space-around;
+
+	padding: 5em 0 5em 0;
 }
 
 .city-box {
-	width: 500px;
-	height: 220px;
 	line-height: 1.65;
 	align-items: center;
-	padding: 6em;
+	padding: 0 0 4em;
 }
 
 .city-info {
@@ -624,9 +665,8 @@ a.signup {
 }
 
 .city-info img {
-	width: 340px;
-	height: 220px;
-	border: 1px solid #000000;
+	width: 350px;
+	height: 200px;
 }
 
 .city-description  {
@@ -638,6 +678,122 @@ a.signup {
 	padding-left: 1em;
 
 }
+
+/* ==== Ending of Index - Locations section ==== */
+
+/* ==== Index - Additional section ==== */
+
+.index-add p {
+	color: #2A3845;
+}
+
+.index-add h3 {
+	margin: 0;
+}
+
+.index-add {
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.index-add.left {
+	width: 50%;
+	position: relative;
+	left: 80px;
+	padding: 8em 0 8em 0;
+}
+
+.index-add.left img {
+	width: 100%;
+	height: auto;
+}
+
+.index-add.right {
+	width: 50%;
+}
+
+.text-block {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 60%;
+	height: 300px;
+	padding: 4em;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.text-block.right {
+	left: 55px;
+	margin: 10.5em 0 10.5em 0;
+}
+
+.text-block.right {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.text-block.right {
+	background-color: transparent;
+	text-align: left;
+}
+
+#add-indent {
+	background-color: #F35B22;
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	top: 24.4%;
+	left: 13.5%;
+	opacity: 0.5;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.list-style {
+	list-style-type: circle;
+	font-size: 14px;
+	color: #F35B22;
+}
+
+.list-style p {
+	font-size: 12px;
+}
+
+.indent-p {
+	margin-left: 4em;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+.index-add a {
+	color: #F35B22;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.index-add a:hover {
+	text-decoration: underline;
+}
+
+/* ==== Ending of Index-Additional section ==== */
 
 /*========== Ending of Index Page =========*/
 
@@ -766,6 +922,7 @@ a.signup {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+
 }
 
 .ya-mama .logo-fake{
@@ -782,6 +939,7 @@ a.signup {
 	color: #3f5c63;
 	font-weight: 500;
 	margin-bottom: 2.2em;
+	text-align: center;
 }
 
 .parent-full{
@@ -1179,6 +1337,21 @@ font-size: 50px;
 
 /* ==== End of Sign Up - Personal Data ==== */
 
+/* ==== Beginning of Sign Up - Confirmation Page ==== */
+
+.confirmation-description {
+	padding-bottom: 2em;
+}
+
+.confirmation-description p {
+	font-size: 15px;
+	margin-right: 4em;
+}
+
+
+
+/* ==== End of Sign Up - Confirmation Page ==== */
+
 
 /* ==== End of Sign Up Pages ==== */
 
@@ -1197,16 +1370,36 @@ font-size: 50px;
 }
 
 .banner-ti-explore {
-	color: #ffffff;
+	color: #F5F6FA;
 	margin: auto;
 	text-align: center;
 	width: 80%;
 	line-height: 1.65;
 }
 
-.banner-ti-explore h3, p {
-	color: #ffffff;
+.banner-ti-explore h1 {
+	color: #F5F6FA;
 }
+
+.banner-ti-explore p {
+	font-size: 1.214em;
+	line-height: 1.5;
+	padding: 0 15px;
+	color: #F5F6FA;
+}
+
+.banner-ti-cr h1 {
+	color: #F5F6FA;
+}
+
+.banner-ti-cr p {
+	font-size: 1.214em;
+	line-height: 1.5;
+	padding: 0 15px;
+	color: #F5F6FA;
+}
+
+
 
 .explore-links {
 	display: flex;
@@ -1286,7 +1479,7 @@ font-size: 50px;
 	color: #3f5c63;
 	border: 1px solid #ffffff;
 	background-color: #ffffff;
-	padding-left: 1em;
+	padding: 1em;
 
 
 }
@@ -1377,8 +1570,6 @@ font-size: 50px;
 	width:55%;
 	margin-left:5em;
 	height: auto;
-	
-
 }
 
 
@@ -1399,7 +1590,7 @@ font-size: 50px;
 	width: 2em;
 	height: 2em;
 	border-radius: 2em;
-	background: url("../images/action-blue-diver-863988.jpg");	
+	background: url("../images/action-blue-diver-863988.jpg");
 }
 
 .side-info .profile-image{
@@ -1764,7 +1955,7 @@ margin-right: 0;
 	display: flex;
 	flex-direction: row;
 	align-items:stretch;
-	
+
 
 }
 
@@ -1774,7 +1965,7 @@ margin-right: 0;
 	align-items: flex-start;
 	width: 100%;
 	max-width: 100%;
-	
+
 
 }
 
@@ -1820,7 +2011,7 @@ margin-right: 0;
 	flex-direction:row;
 	justify-content:flex-start;
 	margin-left:5em;
-	
+
 	border: 5px solid white;
 
 }
@@ -1845,8 +2036,8 @@ margin-right: 0;
 	display: flex;
 	flex-direction:row;
 	align-items:baseline;
-	
-	
+
+
 }
 
 
@@ -1885,6 +2076,8 @@ margin-right: 0;
 	background: url(../images/hiking.jpg);
 	background-size: cover;
 }
+
+
 .container-imgoing .col-2-3 .col-image-big-2:first-child{
 	background: url(../images/pool.jpg);
 	background-size: cover;
@@ -1897,6 +2090,11 @@ margin-right: 0;
 	background: url(../images/gym.jpg);
 	background-size: cover;
 }
+
+.container-imgoing-meetup .col-container-3 .col-image-big-2-1{
+	background: url(../images/hiking.jpg);
+	background-size: cover;
+}
 /* --- images for my interest --- */
 .container-imgoing .col-container-3 .going-text{
 	width: 92%;
@@ -1904,18 +2102,18 @@ margin-right: 0;
 }
 .container-imgoing-meetup .col-container-3 .going-text{
 	width: 100%;
-	
+
 }
 
 .container-imgoing-meetups .col-container-3 .going-text{
 	width: 30%;
-	
+
 }
 
 .container-imgoing-meetups .col-container-3 .going-text-two{
 	width: 60%;
 	margin-left:3em;
-	
+
 }
 .container-imgoing .col-container-3 .going-text h3{
 	margin-bottom: 0em;
@@ -1934,12 +2132,84 @@ margin-right: 0;
 	margin-bottom: 1.5em;
 
 }
+
+.pro-info {
+    margin-top: 3em;
+    text-align: center;
+    width: 70%;
+
+}
+
+
+
+.frequencies {
+    padding-bottom:4em;
+}
+
+
+
+.latest-container {
+    display: flex;
+    display:-webkit-flex;
+
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+.latest-box {
+    width: 280px;
+    height: 240px;
+}
+
+.latest-info {
+    color: #1d4070;
+}
+
+.latest-info h4 {
+    padding-top: 2em;
+}
+
+.latest-info img {
+    width: 240px;
+    height: 200px;
+    padding-top: 4em;
+}
+
+.latest-description  {
+    flex-direction: row;
+    padding-left: 3em;
+    padding-top: 10em;
+
+}
+
+.my-interests {
+    display: flex;
+    flex-direction: row;
+    /*margin-top: 2em;*/
+}
+
+.my-interests img {
+    width: 240px;
+    height: 200px;
+}
+
+.interest-info {
+    padding-top: 2em;
+    padding-left: 3em;
+}
+
+.goal-info {
+    margin-top: 3em;
+}
+
+.goal-info h3 {
+    text-decoration: underline;
+}
 /* ==== end of my interest ==== */
 
-
-
-
-
+/* ==== End of Log In - Upcoming Meetups section ==== */
 
 
 /*========== Beginning of Footer=========*/
@@ -2000,7 +2270,7 @@ footer {
 	padding-bottom: 0.2em;
 }
 
-.footer-links  li a:hover {
+.footer-links .footer-link  li a:hover {
 	color: #F35B22;
 }
 
@@ -2020,7 +2290,7 @@ footer {
 	padding-right: 8em;
 }
 
-.footer-info .footer-newsletter ul li a {
+.footer-info .footer-newsletter .footer-link ul li a {
 	color: #F5F6FA;
 	font-size: 11px;
 	text-decoration: none;
@@ -2060,10 +2330,11 @@ footer {
 	text-transform: uppercase;
 	color: #F5F6FA;
 	width: 60px;
-  height: 29px;
+	height: 29px;
 	border: 1px solid #F35B22;
 	background-color: transparent;
 	padding: 0;
+	margin-top: 1em;
 }
 
 #footer-form .cta:hover{
